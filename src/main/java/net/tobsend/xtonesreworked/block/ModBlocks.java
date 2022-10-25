@@ -17,7 +17,7 @@ import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ModBlocks {
 
-  public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
+  private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
     ForgeRegistries.BLOCKS,
     XtonesReworkedMod.MOD_ID
   );
@@ -34,21 +34,6 @@ public class ModBlocks {
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
 
-  public static final RegistryObject<Block> AGON_BLOCK = registerBlock(
-    "agon_block",
-    () ->
-      new Block(
-        BlockBehaviour.Properties
-          .of(Material.STONE)
-          .strength(6f)
-          .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
-  );
-
-  
-
-  // Support Methods
   private static <T extends Block> RegistryObject<T> registerBlock(
     String name,
     Supplier<T> block,
