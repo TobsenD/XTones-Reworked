@@ -7,12 +7,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 
 public class ModItems {
-    
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, XtonesReworkedMod.MOD_ID);
 
-    public static void register(IEventBus eventBus){
-        ITEMS.register(eventBus);
-    }
+  public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(
+    ForgeRegistries.ITEMS,
+    XtonesReworkedMod.MOD_ID
+  );
 
-
+  public static void register(IEventBus eventBus) {
+    ITEMS.register(eventBus);
+  }
 }

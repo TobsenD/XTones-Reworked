@@ -1,6 +1,4 @@
 {
-    "replace": false,
-    "values": [
-      "xtonesreworked:agon_block"
-    ]
-  }
+	"replace": false,
+	"values": ["xtonesreworked:agon_block"]
+}

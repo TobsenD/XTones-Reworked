@@ -1,9 +1,6 @@
 package net.tobsend.xtonesreworked;
 
-import org.slf4j.Logger;
-
 import com.mojang.logging.LogUtils;
-
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,35 +10,34 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
+import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(XtonesReworkedMod.MOD_ID)
 public class XtonesReworkedMod {
-    public static final String MOD_ID = "xtonesreworked";
-    private static final Logger LOGGER = LogUtils.getLogger();
 
-    public XtonesReworkedMod() {
-        LOGGER.info("SETUP Xtones Reworked");
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+  public static final String MOD_ID = "xtonesreworked";
+  private static final Logger LOGGER = LogUtils.getLogger();
 
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+  public XtonesReworkedMod() {
+    LOGGER.info("SETUP Xtones Reworked");
+    IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modEventBus.addListener(this::commonSetup);
-        MinecraftForge.EVENT_BUS.register(this);
-    }
+    ModItems.register(modEventBus);
+    ModBlocks.register(modEventBus);
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
+    modEventBus.addListener(this::commonSetup);
+    MinecraftForge.EVENT_BUS.register(this);
+  }
 
-    }
+  private void commonSetup(final FMLCommonSetupEvent event) {}
 
-    // You can use EventBusSubscriber to automatically register all static methods
-    // in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-           
-        }
-    }
+  // You can use EventBusSubscriber to automatically register all static methods
+  // in the class annotated with @SubscribeEvent
+  @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+  public static class ClientModEvents {
+
+    @SubscribeEvent
+    public static void onClientSetup(FMLClientSetupEvent event) {}
+  }
 }

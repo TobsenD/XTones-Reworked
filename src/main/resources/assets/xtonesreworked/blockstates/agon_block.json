@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "xtonesreworked:block/agon_block"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "xtonesreworked:block/agon_block"
+		}
+	}
 }

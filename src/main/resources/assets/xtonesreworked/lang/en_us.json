@@ -1,5 +1,6 @@
 {
-    "itemGroup.xtonestab": "Xtones Reworked",
+	"itemGroup.xtonestab": "Xtones Reworked",
 
-    "block.xtonesreworked.agon_block": "Agon"
+	"block.xtonesreworked.xtone_tile": "Xtone Tile",
+	"block.xtonesreworked.agon_block": "Agon"
 }
