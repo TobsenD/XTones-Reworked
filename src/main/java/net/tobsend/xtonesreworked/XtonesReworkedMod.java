@@ -21,6 +21,7 @@ public class XtonesReworkedMod {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public XtonesReworkedMod() {
+        LOGGER.info("SETUP Xtones Reworked");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
