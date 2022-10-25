@@ -22,7 +22,18 @@ public class ModBlocks {
     XtonesReworkedMod.MOD_ID
   );
 
-  // Register Block Area.
+  public static final RegistryObject<Block> XTONE_TILE = registerBlock(
+    "xtone_tile",
+    () ->
+      new Block(
+        BlockBehaviour.Properties
+          .of(Material.STONE)
+          .strength(3f)
+          .requiresCorrectToolForDrops()
+      ),
+    ModCreativeModeTab.XTONE_REWORK_TAB
+  );
+
   public static final RegistryObject<Block> AGON_BLOCK = registerBlock(
     "agon_block",
     () ->
@@ -35,17 +46,7 @@ public class ModBlocks {
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
 
-  public static final RegistryObject<Block> XTONE_TILE = registerBlock(
-    "xtone_tile",
-    () ->
-      new Block(
-        BlockBehaviour.Properties
-          .of(Material.STONE)
-          .strength(3f)
-          .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
-  );
+  
 
   // Support Methods
   private static <T extends Block> RegistryObject<T> registerBlock(
