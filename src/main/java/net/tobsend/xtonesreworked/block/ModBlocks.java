@@ -22,7 +22,7 @@ public class ModBlocks {
 
     //Register Block Area.
     public static final RegistryObject<Block> AGON_BLOCK = registerBlock("agon_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)), ModCreativeModeTab.XTONE_REWORK_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.XTONE_REWORK_TAB);
 
 
     //Support Methods
