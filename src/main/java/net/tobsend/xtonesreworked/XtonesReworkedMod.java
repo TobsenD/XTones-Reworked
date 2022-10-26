@@ -21,6 +21,15 @@ import net.tobsend.xtonesreworked.block.KrypBlocks;
 import net.tobsend.xtonesreworked.block.LairBlocks;
 import net.tobsend.xtonesreworked.block.LaveBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
+import net.tobsend.xtonesreworked.block.RedsBlocks;
+import net.tobsend.xtonesreworked.block.ReedBlocks;
+import net.tobsend.xtonesreworked.block.RoenBlocks;
+import net.tobsend.xtonesreworked.block.SolsBlocks;
+import net.tobsend.xtonesreworked.block.SyncBlocks;
+import net.tobsend.xtonesreworked.block.TankBlocks;
+import net.tobsend.xtonesreworked.block.VectBlocks;
+import net.tobsend.xtonesreworked.block.VenaBlocks;
+import net.tobsend.xtonesreworked.block.ZtylBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
 import org.slf4j.Logger;
 
@@ -49,6 +58,15 @@ public class XtonesReworkedMod {
     KrypBlocks.register(modEventBus);
     LairBlocks.register(modEventBus);
     LaveBlocks.register(modEventBus);
+    RedsBlocks.register(modEventBus);
+    ReedBlocks.register(modEventBus);
+    RoenBlocks.register(modEventBus);
+    SolsBlocks.register(modEventBus);
+    SyncBlocks.register(modEventBus);
+    TankBlocks.register(modEventBus);
+    VectBlocks.register(modEventBus);
+    VenaBlocks.register(modEventBus);
+    ZtylBlocks.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
     MinecraftForge.EVENT_BUS.register(this);

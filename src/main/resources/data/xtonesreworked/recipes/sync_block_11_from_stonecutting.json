@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:sync"
+	},
+	"result": "xtonesreworked:sync_block_11"
+  }

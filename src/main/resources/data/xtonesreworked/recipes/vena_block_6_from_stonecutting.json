@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:vena"
+	},
+	"result": "xtonesreworked:vena_block_6"
+  }

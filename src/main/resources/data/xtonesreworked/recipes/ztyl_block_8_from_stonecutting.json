@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:ztyl"
+	},
+	"result": "xtonesreworked:ztyl_block_8"
+  }
