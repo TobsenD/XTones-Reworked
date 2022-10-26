@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworked:cray"
+		},
+		"C": {
+			"item": "minecraft:green_dye"
+		}
+	},
+	"pattern": ["BCB", "BBB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:cray_block_3",
+		"count": 8
+	}
+}
