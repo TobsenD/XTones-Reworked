@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:korp"
+	},
+	"result": "xtonesreworked:korp_block_14"
+  }

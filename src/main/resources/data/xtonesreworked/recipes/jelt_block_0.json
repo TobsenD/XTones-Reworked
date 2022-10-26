@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworked:xtone_tile"
+		},
+		"S": {
+			"item": "minecraft:orange_dye"
+		}
+	},
+	"pattern": ["BBB", "BSB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:jelt_block_0",
+		"count": 8
+	}
+}
