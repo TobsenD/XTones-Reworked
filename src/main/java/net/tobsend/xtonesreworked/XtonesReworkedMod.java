@@ -13,6 +13,7 @@ import net.tobsend.xtonesreworked.block.AzurBlocks;
 import net.tobsend.xtonesreworked.block.BittBlocks;
 import net.tobsend.xtonesreworked.block.CrayBlocks;
 import net.tobsend.xtonesreworked.block.FortBlocks;
+import net.tobsend.xtonesreworked.block.GlaxxBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
 import org.slf4j.Logger;
@@ -35,6 +36,7 @@ public class XtonesReworkedMod {
     BittBlocks.register(modEventBus);
     CrayBlocks.register(modEventBus);
     FortBlocks.register(modEventBus);
+    GlaxxBlocks.register(modEventBus);
 
 
     modEventBus.addListener(this::commonSetup);
