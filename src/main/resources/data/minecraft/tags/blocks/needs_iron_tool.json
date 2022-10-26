@@ -1,21 +1,4 @@
 {
 	"replace": false,
-	"values": [
-		"xtonesreworked:agon_block_0",
-		"xtonesreworked:agon_block_1",
-		"xtonesreworked:agon_block_2",
-		"xtonesreworked:agon_block_3",
-		"xtonesreworked:agon_block_4",
-		"xtonesreworked:agon_block_5",
-		"xtonesreworked:agon_block_6",
-		"xtonesreworked:agon_block_7",
-		"xtonesreworked:agon_block_8",
-		"xtonesreworked:agon_block_9",
-		"xtonesreworked:agon_block_10",
-		"xtonesreworked:agon_block_11",
-		"xtonesreworked:agon_block_12",
-		"xtonesreworked:agon_block_13",
-		"xtonesreworked:agon_block_14",
-		"xtonesreworked:agon_block_15"
-	]
+	"values": []
 }

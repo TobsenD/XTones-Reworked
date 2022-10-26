@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"X": {
+			"tag": "xtonesreworked:agon"
+		},
+		"D": {
+			"item": "minecraft:yellow_dye"
+		}
+	},
+	"pattern": ["XXX", "XDX", "XXX"],
+	"result": {
+		"item": "xtonesreworked:agon_block_1",
+		"count": 8
+	}
+}

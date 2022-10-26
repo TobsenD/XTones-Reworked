@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "xtonesreworked:block/agon_block_8"
+		"all": "xtonesreworked:block/agon/agon_block_8_magenta"
 	}
 }
