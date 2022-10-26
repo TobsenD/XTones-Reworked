@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworked:xtone_tile"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"pattern": ["BBB", "BSB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:iszm_block_0",
+		"count": 8
+	}
+}
