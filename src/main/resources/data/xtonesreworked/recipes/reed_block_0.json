@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"key": {
 		"B": {
-			"tag": "xtonesreworked:reed"
+			"item": "xtonesreworked:xtone_tile"
 		},
 		"C": {
 			"item": "minecraft:sugar_cane"

@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"key": {
 		"B": {
-			"tag": "xtonesreworked:vect"
+			"item": "xtonesreworked:xtone_tile"
 		},
 		"C": {
 			"item": "minecraft:black_dye"

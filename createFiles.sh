@@ -40,6 +40,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/loot_tables/blocks/"$1"_blo
     ]
 }
 EOF
+<<'###BLOCK-COMMENT' 
 cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".json
 {
 	"type": "minecraft:crafting_shaped",
@@ -58,6 +59,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".jso
 	}
 }
 EOF
+###BLOCK-COMMENT
 cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i"_from_stonecutting.json
 {
 	"type": "minecraft:stonecutting",
@@ -68,6 +70,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i"_fro
 	"result": "xtonesreworked:$1_block_$i"
   }
 EOF
+
 done
 cat <<EOF > ./src/main/resources/data/xtonesreworked/tags/items/"$1".json
 {

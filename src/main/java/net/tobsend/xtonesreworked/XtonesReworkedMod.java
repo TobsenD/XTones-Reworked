@@ -20,6 +20,7 @@ import net.tobsend.xtonesreworked.block.KorpBlocks;
 import net.tobsend.xtonesreworked.block.KrypBlocks;
 import net.tobsend.xtonesreworked.block.LairBlocks;
 import net.tobsend.xtonesreworked.block.LaveBlocks;
+import net.tobsend.xtonesreworked.block.MintBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.block.RedsBlocks;
 import net.tobsend.xtonesreworked.block.ReedBlocks;
@@ -58,6 +59,7 @@ public class XtonesReworkedMod {
     KrypBlocks.register(modEventBus);
     LairBlocks.register(modEventBus);
     LaveBlocks.register(modEventBus);
+    MintBlocks.register(modEventBus);
     RedsBlocks.register(modEventBus);
     ReedBlocks.register(modEventBus);
     RoenBlocks.register(modEventBus);
