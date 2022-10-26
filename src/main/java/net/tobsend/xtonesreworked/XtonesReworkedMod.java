@@ -9,6 +9,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.tobsend.xtonesreworked.block.AgonBlocks;
+import net.tobsend.xtonesreworked.block.AzurBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
 import org.slf4j.Logger;
@@ -27,6 +28,7 @@ public class XtonesReworkedMod {
     ModItems.register(modEventBus);
     ModBlocks.register(modEventBus);
     AgonBlocks.register(modEventBus);
+    AzurBlocks.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
     MinecraftForge.EVENT_BUS.register(this);
