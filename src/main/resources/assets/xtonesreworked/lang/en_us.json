@@ -2,6 +2,7 @@
 	"itemGroup.xtonestab": "Xtones Reworked",
 
 	"block.xtonesreworked.xtone_tile": "Xtone Tile",
+
 	"block.xtonesreworked.agon_block_0": "White Agon",
 	"block.xtonesreworked.agon_block_1": "Yellow Agon",
 	"block.xtonesreworked.agon_block_2": "Lime Agon",
@@ -11,7 +12,7 @@
 	"block.xtonesreworked.agon_block_6": "Blue Agon",
 	"block.xtonesreworked.agon_block_7": "Purple Agon",
 	"block.xtonesreworked.agon_block_8": "Magenta Agon",
-	"block.xtonesreworked.agon_block_9": "Pinkt Agon",
+	"block.xtonesreworked.agon_block_9": "Pink Agon",
 	"block.xtonesreworked.agon_block_10": "Red Agon",
 	"block.xtonesreworked.agon_block_11": "Orange Agon",
 	"block.xtonesreworked.agon_block_12": "Brown Agon",
@@ -34,5 +35,23 @@
 	"block.xtonesreworked.azur_block_12": "Azur Variant 12",
 	"block.xtonesreworked.azur_block_13": "Azur Variant 13",
 	"block.xtonesreworked.azur_block_14": "Azur Variant 14",
-	"block.xtonesreworked.azur_block_15": "Azur Variant 15"
+	"block.xtonesreworked.azur_block_15": "Azur Variant 15",
+
+	"block.xtonesreworked.bitt_block_0": "Bitt",
+	"block.xtonesreworked.bitt_block_1": "Light Gray Bitt",
+	"block.xtonesreworked.bitt_block_2": "Yellow Bitt",
+	"block.xtonesreworked.bitt_block_3": "Lime Bitt",
+	"block.xtonesreworked.bitt_block_4": "Green Bitt",
+	"block.xtonesreworked.bitt_block_5": "Cyan Agon",
+	"block.xtonesreworked.bitt_block_6": "Lighter Blue Agon",
+	"block.xtonesreworked.bitt_block_7": "Light Blue Agon",
+	"block.xtonesreworked.bitt_block_8": "Blue Agon",
+	"block.xtonesreworked.bitt_block_9": "Purple Agon",
+	"block.xtonesreworked.bitt_block_10": "Dark Pink Agon",
+	"block.xtonesreworked.bitt_block_11": "Pink Agon",
+	"block.xtonesreworked.bitt_block_12": "Magenta Agon",
+	"block.xtonesreworked.bitt_block_13": "Red Agon",
+	"block.xtonesreworked.bitt_block_14": "Orange Agon",
+	"block.xtonesreworked.bitt_block_15": "Brown Agon"
+
 }
