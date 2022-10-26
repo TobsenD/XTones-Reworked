@@ -15,6 +15,7 @@ import net.tobsend.xtonesreworked.block.CrayBlocks;
 import net.tobsend.xtonesreworked.block.FortBlocks;
 import net.tobsend.xtonesreworked.block.GlaxxBlocks;
 import net.tobsend.xtonesreworked.block.IszmBlocks;
+import net.tobsend.xtonesreworked.block.JeltBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
 import org.slf4j.Logger;
@@ -39,7 +40,7 @@ public class XtonesReworkedMod {
     FortBlocks.register(modEventBus);
     GlaxxBlocks.register(modEventBus);
     IszmBlocks.register(modEventBus);
-
+    JeltBlocks.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
     MinecraftForge.EVENT_BUS.register(this);
