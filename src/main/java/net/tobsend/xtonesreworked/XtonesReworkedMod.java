@@ -19,6 +19,7 @@ import net.tobsend.xtonesreworked.block.JeltBlocks;
 import net.tobsend.xtonesreworked.block.KorpBlocks;
 import net.tobsend.xtonesreworked.block.KrypBlocks;
 import net.tobsend.xtonesreworked.block.LairBlocks;
+import net.tobsend.xtonesreworked.block.LaveBlocks;
 import net.tobsend.xtonesreworked.block.ModBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
 import org.slf4j.Logger;
@@ -47,6 +48,7 @@ public class XtonesReworkedMod {
     KorpBlocks.register(modEventBus);
     KrypBlocks.register(modEventBus);
     LairBlocks.register(modEventBus);
+    LaveBlocks.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
     MinecraftForge.EVENT_BUS.register(this);

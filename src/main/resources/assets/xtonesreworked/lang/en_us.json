@@ -188,6 +188,22 @@
 	"block.xtonesreworked.lair_block_12": "Lair Variant 12",
 	"block.xtonesreworked.lair_block_13": "Lair Variant 13",
 	"block.xtonesreworked.lair_block_14": "Lair Variant 14",
-	"block.xtonesreworked.lair_block_15": "Lair Variant 15"
+	"block.xtonesreworked.lair_block_15": "Lair Variant 15",
 
+	"block.xtonesreworked.lave_block_0":  "Lave",
+	"block.xtonesreworked.lave_block_1":  "Lave Variant 1",
+	"block.xtonesreworked.lave_block_2":  "Lave Variant 2",
+	"block.xtonesreworked.lave_block_3":  "Lave Variant 3",
+	"block.xtonesreworked.lave_block_4":  "Lave Variant 4",
+	"block.xtonesreworked.lave_block_5":  "Lave Variant 5",
+	"block.xtonesreworked.lave_block_6":  "Lave Variant 6",
+	"block.xtonesreworked.lave_block_7":  "Lave Variant 7",
+	"block.xtonesreworked.lave_block_8":  "Lave Variant 8",
+	"block.xtonesreworked.lave_block_9":  "Lave Variant 9",
+	"block.xtonesreworked.lave_block_10": "Lave Variant 10",
+	"block.xtonesreworked.lave_block_11": "Lave Variant 11",
+	"block.xtonesreworked.lave_block_12": "Lave Variant 12",
+	"block.xtonesreworked.lave_block_13": "Lave Variant 13",
+	"block.xtonesreworked.lave_block_14": "Lave Variant 14",
+	"block.xtonesreworked.lave_block_15": "Lave Variant 15"
 }
