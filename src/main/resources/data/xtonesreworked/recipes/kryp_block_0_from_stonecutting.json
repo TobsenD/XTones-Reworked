@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:kryp"
+	},
+	"result": "xtonesreworked:kryp_block_0"
+  }
