@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworked:zkul"
+		},
+		"C": {
+			"item": "minecraft:brown_dye"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:zkul_block_14",
+		"count": 8
+	}
+}

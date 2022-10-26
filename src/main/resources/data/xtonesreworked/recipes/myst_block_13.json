@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworked:myst"
+		},
+		"C": {
+			"item": "minecraft:magenta_dye"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:myst_block_13",
+		"count": 8
+	}
+}

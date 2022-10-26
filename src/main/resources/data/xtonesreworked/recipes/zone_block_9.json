@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworked:zone"
+		},
+		"C": {
+			"item": "minecraft:purple_dye"
+		}
+	},
+	"pattern": ["BBB", "BBB", "BCB"],
+	"result": {
+		"item": "xtonesreworked:zone_block_9",
+		"count": 8
+	}
+}

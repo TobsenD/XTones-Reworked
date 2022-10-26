@@ -40,7 +40,6 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/loot_tables/blocks/"$1"_blo
     ]
 }
 EOF
-<<'###BLOCK-COMMENT' 
 cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".json
 {
 	"type": "minecraft:crafting_shaped",
@@ -59,7 +58,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".jso
 	}
 }
 EOF
-###BLOCK-COMMENT
+<<'###BLOCK-COMMENT' 
 cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i"_from_stonecutting.json
 {
 	"type": "minecraft:stonecutting",
@@ -70,7 +69,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i"_fro
 	"result": "xtonesreworked:$1_block_$i"
   }
 EOF
-
+###BLOCK-COMMENT
 done
 cat <<EOF > ./src/main/resources/data/xtonesreworked/tags/items/"$1".json
 {
@@ -93,5 +92,23 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/tags/items/"$1".json
 		"xtonesreworked:$1_block_14",
 		"xtonesreworked:$1_block_15"
 	]
+}
+EOF
+cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_0_alternative.json
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "xtonesreworked:xtone_tile"
+		},
+		"C": {
+			"item": "minecraft:yellow_dye"
+		}
+	},
+	"pattern": ["BBB", "BCB", "BBB"],
+	"result": {
+		"item": "xtonesreworked:$1_block_$i",
+		"count": 8
+	}
 }
 EOF

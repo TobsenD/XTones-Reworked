@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"tag": "xtonesreworked:zion"
+		},
+		"C": {
+			"item": "minecraft:green_dye"
+		}
+	},
+	"pattern": ["BBB", "BBB", "BCB"],
+	"result": {
+		"item": "xtonesreworked:zion_block_4",
+		"count": 8
+	}
+}
