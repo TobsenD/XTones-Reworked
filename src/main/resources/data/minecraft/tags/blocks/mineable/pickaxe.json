@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
+		"xtonesreworked:xtone_tile",
+		"xtonesreworked:flat_lamp",
 		"xtonesreworked:agon_block_0",
 		"xtonesreworked:agon_block_1",
 		"xtonesreworked:agon_block_2",

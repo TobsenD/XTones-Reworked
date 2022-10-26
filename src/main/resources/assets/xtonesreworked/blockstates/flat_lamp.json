@@ -1,0 +1,10 @@
+{
+    "variants": {
+      "lit=false": {
+        "model": "xtonesreworked:block/flat_lamp"
+      },
+      "lit=true": {
+        "model": "xtonesreworked:block/flat_lamp_on"
+      }
+    }
+  }

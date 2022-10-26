@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
+import net.tobsend.xtonesreworked.block.custom.FlatLamp;
 import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
@@ -30,6 +31,19 @@ public class ModBlocks {
           .of(Material.STONE)
           .strength(3f)
           .requiresCorrectToolForDrops()
+      ),
+    ModCreativeModeTab.XTONE_REWORK_TAB
+  );
+
+  public static final RegistryObject<Block> FLAT_LAMP = registerBlock(
+    "flat_lamp",
+    () ->
+      new FlatLamp(
+        BlockBehaviour.Properties
+          .of(Material.STONE)
+          .strength(3f)
+          .requiresCorrectToolForDrops()
+          .lightLevel(state -> state.getValue(FlatLamp.LIT) ? 15 : 0)
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
