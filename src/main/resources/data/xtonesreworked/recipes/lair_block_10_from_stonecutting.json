@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+	  "tag": "xtonesreworked:lair"
+	},
+	"result": "xtonesreworked:lair_block_10"
+  }

@@ -171,6 +171,23 @@
 	"block.xtonesreworked.kryp_block_12": "Kryp Variant 12",
 	"block.xtonesreworked.kryp_block_13": "Kryp Variant 13",
 	"block.xtonesreworked.kryp_block_14": "Kryp Variant 14",
-	"block.xtonesreworked.kryp_block_15": "Kryp Variant 15"
+	"block.xtonesreworked.kryp_block_15": "Kryp Variant 15",
+
+	"block.xtonesreworked.lair_block_0": "Lair",
+	"block.xtonesreworked.lair_block_1": "Lair Variant 1",
+	"block.xtonesreworked.lair_block_2": "Lair Variant 2",
+	"block.xtonesreworked.lair_block_3": "Lair Variant 3",
+	"block.xtonesreworked.lair_block_4": "Lair Variant 4",
+	"block.xtonesreworked.lair_block_5": "Lair Variant 5",
+	"block.xtonesreworked.lair_block_6": "Lair Variant 6",
+	"block.xtonesreworked.lair_block_7": "Lair Variant 7",
+	"block.xtonesreworked.lair_block_8": "Lair Variant 8",
+	"block.xtonesreworked.lair_block_9": "Lair Variant 9",
+	"block.xtonesreworked.lair_block_10": "Lair Variant 10",
+	"block.xtonesreworked.lair_block_11": "Lair Variant 11",
+	"block.xtonesreworked.lair_block_12": "Lair Variant 12",
+	"block.xtonesreworked.lair_block_13": "Lair Variant 13",
+	"block.xtonesreworked.lair_block_14": "Lair Variant 14",
+	"block.xtonesreworked.lair_block_15": "Lair Variant 15"
 
 }
