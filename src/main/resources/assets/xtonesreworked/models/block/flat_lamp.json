@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
+		"particle": "xtonesreworked:block/lamp_flat/lamp_up_off",
 		"top": "xtonesreworked:block/lamp_flat/lamp_up_off",
 		"bottom": "xtonesreworked:block/lamp_flat/lamp_down",
 		"side": "xtonesreworked:block/lamp_flat/lamp_side"
