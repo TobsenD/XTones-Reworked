@@ -4,7 +4,6 @@ package net.tobsend.xtonesreworked.block;
 import java.util.function.Supplier;
 
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,7 +13,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
-import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class KrypBlocks {
@@ -32,8 +30,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   public static final RegistryObject<Block> KRYP_BLOCK_1 = registerBlock(
@@ -44,8 +42,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_2 = registerBlock(
     "kryp_block_2",
@@ -55,8 +53,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_3 = registerBlock(
     "kryp_block_3",
@@ -66,8 +64,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_4 = registerBlock(
     "kryp_block_4",
@@ -77,8 +75,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_5 = registerBlock(
     "kryp_block_5",
@@ -88,8 +86,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_6 = registerBlock(
     "kryp_block_6",
@@ -99,8 +97,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   public static final RegistryObject<Block> KRYP_BLOCK_7 = registerBlock(
@@ -111,8 +109,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_8 = registerBlock(
     "kryp_block_8",
@@ -122,8 +120,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_9 = registerBlock(
     "kryp_block_9",
@@ -133,8 +131,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_10 = registerBlock(
     "kryp_block_10",
@@ -144,8 +142,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_11 = registerBlock(
     "kryp_block_11",
@@ -155,8 +153,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_12 = registerBlock(
     "kryp_block_12",
@@ -166,8 +164,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_13 = registerBlock(
     "kryp_block_13",
@@ -177,8 +175,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_14 = registerBlock(
     "kryp_block_14",
@@ -188,8 +186,8 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> KRYP_BLOCK_15 = registerBlock(
     "kryp_block_15",
@@ -199,33 +197,30 @@ public class KrypBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   private static <T extends Block> RegistryObject<T> registerBlock(
     String name,
-    Supplier<T> block,
-    CreativeModeTab tab
+    Supplier<T> block
   ) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn, tab);
+    registerBlockItem(name, toReturn);
     return toReturn;
   }
 
   private static <T extends Block> RegistryObject<Item> registerBlockItem(
     String name,
-    RegistryObject<T> block,
-    CreativeModeTab tab
+    RegistryObject<T> block
   ) {
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties().tab(tab))
+      () -> new BlockItem(block.get(), new Item.Properties())
     );
   }
 
   public static void register(IEventBus eventBus) {
     BLOCKS.register(eventBus);
   }
-
 }

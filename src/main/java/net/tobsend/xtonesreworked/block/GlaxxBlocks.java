@@ -4,7 +4,6 @@ package net.tobsend.xtonesreworked.block;
 import java.util.function.Supplier;
 
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -15,7 +14,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
-import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class GlaxxBlocks {
@@ -34,8 +32,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   public static final RegistryObject<Block> GLAXX_BLOCK_1 = registerBlock(
@@ -47,8 +45,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_2 = registerBlock(
     "glaxx_block_2",
@@ -59,8 +57,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_3 = registerBlock(
     "glaxx_block_3",
@@ -71,8 +69,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_4 = registerBlock(
     "glaxx_block_4",
@@ -83,8 +81,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_5 = registerBlock(
     "glaxx_block_5",
@@ -95,8 +93,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_6 = registerBlock(
     "glaxx_block_6",
@@ -107,8 +105,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   public static final RegistryObject<Block> GLAXX_BLOCK_7 = registerBlock(
@@ -120,8 +118,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_8 = registerBlock(
     "glaxx_block_8",
@@ -132,8 +130,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_9 = registerBlock(
     "glaxx_block_9",
@@ -144,8 +142,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_10 = registerBlock(
     "glaxx_block_10",
@@ -156,8 +154,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_11 = registerBlock(
     "glaxx_block_11",
@@ -168,8 +166,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_12 = registerBlock(
     "glaxx_block_12",
@@ -180,8 +178,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_13 = registerBlock(
     "glaxx_block_13",
@@ -192,8 +190,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_14 = registerBlock(
     "glaxx_block_14",
@@ -204,8 +202,8 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> GLAXX_BLOCK_15 = registerBlock(
     "glaxx_block_15",
@@ -216,28 +214,26 @@ public class GlaxxBlocks {
           .strength(1f)
           .sound(SoundType.GLASS)
           .noOcclusion()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   private static <T extends Block> RegistryObject<T> registerBlock(
     String name,
-    Supplier<T> block,
-    CreativeModeTab tab
+    Supplier<T> block
   ) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn, tab);
+    registerBlockItem(name, toReturn);
     return toReturn;
   }
 
   private static <T extends Block> RegistryObject<Item> registerBlockItem(
     String name,
-    RegistryObject<T> block,
-    CreativeModeTab tab
+    RegistryObject<T> block
   ) {
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties().tab(tab))
+      () -> new BlockItem(block.get(), new Item.Properties())
     );
   }
 

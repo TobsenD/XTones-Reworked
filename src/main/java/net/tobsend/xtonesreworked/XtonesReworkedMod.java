@@ -1,7 +1,18 @@
 package net.tobsend.xtonesreworked;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.slf4j.Logger;
+
 import com.mojang.logging.LogUtils;
+
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -44,13 +55,13 @@ import net.tobsend.xtonesreworked.block.ZorgBlocks;
 import net.tobsend.xtonesreworked.block.ZtylBlocks;
 import net.tobsend.xtonesreworked.block.ZythBlocks;
 import net.tobsend.xtonesreworked.item.ModItems;
-import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(XtonesReworkedMod.MOD_ID)
 public class XtonesReworkedMod {
 
   public static final String MOD_ID = "xtonesreworked";
+  public static CreativeModeTab xtonesTab;
   private static final Logger LOGGER = LogUtils.getLogger();
 
   public XtonesReworkedMod() {
@@ -95,10 +106,33 @@ public class XtonesReworkedMod {
     ZythBlocks.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
+    modEventBus.addListener(this::registerTabs);
     MinecraftForge.EVENT_BUS.register(this);
   }
 
   private void commonSetup(final FMLCommonSetupEvent event) {}
+
+  private void registerTabs(CreativeModeTabEvent.Register event) {
+    xtonesTab =
+      event.registerCreativeModeTab(
+        new ResourceLocation(MOD_ID, "xtonestab"),
+        builder ->
+          builder
+            .icon(() -> new ItemStack(ModBlocks.XTONE_TILE.get()))
+            .title(Component.translatable("itemGroup." + MOD_ID + ".xtonestab"))
+            .displayItems((featureFlags, output, hasOp) -> {
+              output.acceptAll(buildCreativeTabList());
+            })
+      );
+  }
+
+  private static final Collection<ItemStack> buildCreativeTabList() {
+    Collection<ItemStack> tabEntries = new ArrayList<ItemStack>();
+    ModItems.ITEMS
+      .getEntries()
+      .forEach(item -> tabEntries.add(new ItemStack(item.get())));
+    return tabEntries;
+  }
 
   // You can use EventBusSubscriber to automatically register all static methods
   // in the class annotated with @SubscribeEvent

@@ -1,10 +1,8 @@
 package net.tobsend.xtonesreworked.block;
 
-
 import java.util.function.Supplier;
 
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,7 +12,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
-import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class AzurBlocks {
@@ -32,8 +29,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
 
   public static final RegistryObject<Block> AZUR_BLOCK_1 = registerBlock(
@@ -44,8 +40,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_2 = registerBlock(
     "azur_block_2",
@@ -55,8 +50,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_3 = registerBlock(
     "azur_block_3",
@@ -66,8 +60,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_4 = registerBlock(
     "azur_block_4",
@@ -77,8 +70,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_5 = registerBlock(
     "azur_block_5",
@@ -88,8 +80,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_6 = registerBlock(
     "azur_block_6",
@@ -99,8 +90,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
 
   public static final RegistryObject<Block> AZUR_BLOCK_7 = registerBlock(
@@ -111,8 +101,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_8 = registerBlock(
     "azur_block_8",
@@ -122,8 +111,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_9 = registerBlock(
     "azur_block_9",
@@ -133,8 +121,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_10 = registerBlock(
     "azur_block_10",
@@ -144,8 +131,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_11 = registerBlock(
     "azur_block_11",
@@ -155,8 +141,7 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
   public static final RegistryObject<Block> AZUR_BLOCK_12 = registerBlock(
     "azur_block_12",
@@ -166,8 +151,8 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> AZUR_BLOCK_13 = registerBlock(
     "azur_block_13",
@@ -177,8 +162,8 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> AZUR_BLOCK_14 = registerBlock(
     "azur_block_14",
@@ -188,8 +173,8 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
   public static final RegistryObject<Block> AZUR_BLOCK_15 = registerBlock(
     "azur_block_15",
@@ -199,33 +184,30 @@ public class AzurBlocks {
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
+    
   );
 
   private static <T extends Block> RegistryObject<T> registerBlock(
     String name,
-    Supplier<T> block,
-    CreativeModeTab tab
+    Supplier<T> block
   ) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn, tab);
+    registerBlockItem(name, toReturn);
     return toReturn;
   }
 
   private static <T extends Block> RegistryObject<Item> registerBlockItem(
     String name,
-    RegistryObject<T> block,
-    CreativeModeTab tab
+    RegistryObject<T> block
   ) {
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties().tab(tab))
+      () -> new BlockItem(block.get(), new Item.Properties())
     );
   }
 
   public static void register(IEventBus eventBus) {
     BLOCKS.register(eventBus);
   }
-
 }

@@ -1,8 +1,8 @@
 package net.tobsend.xtonesreworked.block;
 
 import com.google.common.base.Supplier;
+
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -13,7 +13,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 import net.tobsend.xtonesreworked.block.custom.FlatLamp;
-import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ModBlocks {
@@ -31,8 +30,7 @@ public class ModBlocks {
           .of(Material.STONE)
           .strength(3f)
           .requiresCorrectToolForDrops()
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
 
   public static final RegistryObject<Block> FLAT_LAMP = registerBlock(
@@ -44,32 +42,31 @@ public class ModBlocks {
           .strength(3f)
           .requiresCorrectToolForDrops()
           .lightLevel(state -> state.getValue(FlatLamp.LIT) ? 15 : 0)
-      ),
-    ModCreativeModeTab.XTONE_REWORK_TAB
+      )
   );
 
   private static <T extends Block> RegistryObject<T> registerBlock(
     String name,
-    Supplier<T> block,
-    CreativeModeTab tab
+    Supplier<T> block
   ) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn, tab);
+    registerBlockItem(name, toReturn);
     return toReturn;
   }
 
   private static <T extends Block> RegistryObject<Item> registerBlockItem(
     String name,
-    RegistryObject<T> block,
-    CreativeModeTab tab
+    RegistryObject<T> block
   ) {
+   
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties().tab(tab))
+      () -> new BlockItem(block.get(), new Item.Properties())
     );
   }
 
   public static void register(IEventBus eventBus) {
     BLOCKS.register(eventBus);
+    
   }
 }
