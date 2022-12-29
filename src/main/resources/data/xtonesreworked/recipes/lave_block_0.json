@@ -8,7 +8,7 @@
 			"item": "minecraft:blue_dye"
 		}
 	},
-	"pattern": ["BBB", "BCB", "BBB"],
+	"pattern": ["BBB", "BBB", "BCB"],
 	"result": {
 		"item": "xtonesreworked:lave_block_0",
 		"count": 8
