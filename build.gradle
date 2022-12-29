@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.0.1-1.19.2'
+version = '1.0.1-1.19.2-43.2.0'
 group = 'net.tobsend.xtonesreworked' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'xtonesreworked'
 
