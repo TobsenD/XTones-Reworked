@@ -120,7 +120,7 @@ public class XtonesReworkedMod {
           builder
             .icon(() -> new ItemStack(ModBlocks.XTONE_TILE.get()))
             .title(Component.translatable("itemGroup." + MOD_ID + ".xtonestab"))
-            .displayItems((featureFlags, output, hasOp) -> {
+            .displayItems((featureFlags, output) -> {
               output.acceptAll(buildCreativeTabList());
             })
       );
