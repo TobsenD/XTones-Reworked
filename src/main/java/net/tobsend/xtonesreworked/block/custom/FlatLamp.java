@@ -1,21 +1,22 @@
 package net.tobsend.xtonesreworked.block.custom;
 
-import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.util.RandomSource;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.state.BooleanProperty;
+import net.minecraft.state.DirectionProperty;
+import net.minecraft.state.StateContainer;
+import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.util.Mirror;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
+
+import java.util.Random;
 
 public class FlatLamp extends Block {
 
@@ -56,7 +57,7 @@ public class FlatLamp extends Block {
     return blockState.rotate(mirror.getRotation(blockState.getValue(FACING)));
   }
 
-  public BlockState getStateForPlacement(BlockPlaceContext blockPlaceContext) {
+  public BlockState getStateForPlacement(BlockItemUseContext blockPlaceContext) {
     return this.defaultBlockState()
       .setValue(
         FACING,
@@ -75,9 +76,9 @@ public class FlatLamp extends Block {
   @Override
   public VoxelShape getShape(
     BlockState blockState,
-    BlockGetter blockGetter,
+    IBlockReader blockGetter,
     BlockPos blockPos,
-    CollisionContext collisionContext
+    ISelectionContext collisionContext
   ) {
     switch (blockState.getValue(FACING)) {
       case DOWN:
@@ -95,9 +96,14 @@ public class FlatLamp extends Block {
     }
   }
 
-  public void neighborChanged(
+  public void neighborChanged_old(BlockState currentState, World world, BlockPos pos, Block blockIn, BlockPos fromPos, boolean isMoving) {
+    final boolean active = currentState.getValue(LIT);
+  }
+
+  @Override
+  public void neighborChanged (
     BlockState blockState,
-    Level level,
+    World level,
     BlockPos blockPos,
     Block block,
     BlockPos fromPos,
@@ -107,7 +113,7 @@ public class FlatLamp extends Block {
       boolean flag = blockState.getValue(LIT);
       if (flag != level.hasNeighborSignal(blockPos)) {
         if (flag) {
-          level.scheduleTick(blockPos, this, 4);
+          level.getBlockTicks().scheduleTick(blockPos, this, 4);
         } else {
           level.setBlock(blockPos, blockState.cycle(LIT), 2);
         }
@@ -115,11 +121,12 @@ public class FlatLamp extends Block {
     }
   }
 
+  @Override
   public void tick(
     BlockState blockState,
-    ServerLevel serverLevel,
+    ServerWorld serverLevel,
     BlockPos blockPostition,
-    RandomSource randomSource
+    Random randomSource
   ) {
     if (
       blockState.getValue(LIT) && !serverLevel.hasNeighborSignal(blockPostition)
@@ -130,7 +137,7 @@ public class FlatLamp extends Block {
 
   @Override
   protected void createBlockStateDefinition(
-    StateDefinition.Builder<Block, BlockState> builder
+    StateContainer.Builder<Block, BlockState> builder
   ) {
     builder.add(FACING, LIT);
   }

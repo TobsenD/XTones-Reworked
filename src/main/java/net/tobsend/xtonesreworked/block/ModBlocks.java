@@ -2,17 +2,18 @@ package net.tobsend.xtonesreworked.block;
 
 import com.google.common.base.Supplier;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 import net.tobsend.xtonesreworked.block.custom.FlatLamp;
+import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ModBlocks {
@@ -26,7 +27,7 @@ public class ModBlocks {
     "xtone_tile",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(3f)
           .requiresCorrectToolForDrops()
@@ -37,7 +38,7 @@ public class ModBlocks {
     "flat_lamp",
     () ->
       new FlatLamp(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(3f)
           .requiresCorrectToolForDrops()
@@ -61,7 +62,7 @@ public class ModBlocks {
    
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties())
+      () -> new BlockItem(block.get(), new Item.Properties().tab(ModCreativeModeTab.XTONE_REWORK_TAB))
     );
   }
 
