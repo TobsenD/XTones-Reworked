@@ -3,12 +3,16 @@ package net.tobsend.xtonesreworked;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.util.ResourceLocation;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -136,6 +140,12 @@ private static final Logger LOGGER = LogManager.getLogger();
   public static class ClientModEvents {
 
     @SubscribeEvent
-    public static void onClientSetup(FMLClientSetupEvent event) {}
+    public static void onClientSetup(FMLClientSetupEvent event) {
+      event.enqueueWork(() -> {
+        for (RegistryObject<Block> block : GlaxxBlocks.BLOCKS.getEntries()) {
+          RenderTypeLookup.setRenderLayer(block.get(), RenderType.translucent());
+        }
+      });
+    }
   }
 }
