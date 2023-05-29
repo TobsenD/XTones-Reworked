@@ -3,16 +3,17 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
+import net.tobsend.xtonesreworked.item.ModCreativeModeTab;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ZechBlocks {
@@ -26,7 +27,7 @@ public class ZechBlocks {
     "zech_block_0",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -38,7 +39,7 @@ public class ZechBlocks {
     "zech_block_1",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -49,7 +50,7 @@ public class ZechBlocks {
     "zech_block_2",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -60,7 +61,7 @@ public class ZechBlocks {
     "zech_block_3",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -71,7 +72,7 @@ public class ZechBlocks {
     "zech_block_4",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -82,7 +83,7 @@ public class ZechBlocks {
     "zech_block_5",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -93,7 +94,7 @@ public class ZechBlocks {
     "zech_block_6",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -105,7 +106,7 @@ public class ZechBlocks {
     "zech_block_7",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -116,7 +117,7 @@ public class ZechBlocks {
     "zech_block_8",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -127,7 +128,7 @@ public class ZechBlocks {
     "zech_block_9",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -138,7 +139,7 @@ public class ZechBlocks {
     "zech_block_10",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -149,7 +150,7 @@ public class ZechBlocks {
     "zech_block_11",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -160,7 +161,7 @@ public class ZechBlocks {
     "zech_block_12",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -171,7 +172,7 @@ public class ZechBlocks {
     "zech_block_13",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -182,7 +183,7 @@ public class ZechBlocks {
     "zech_block_14",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -193,7 +194,7 @@ public class ZechBlocks {
     "zech_block_15",
     () ->
       new Block(
-        BlockBehaviour.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
@@ -216,7 +217,7 @@ public class ZechBlocks {
   ) {
     return ModItems.ITEMS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties())
+      () -> new BlockItem(block.get(), new Item.Properties().tab(ModCreativeModeTab.XTONE_REWORK_TAB))
     );
   }
 
