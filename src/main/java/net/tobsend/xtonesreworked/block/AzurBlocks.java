@@ -3,7 +3,6 @@ package net.tobsend.xtonesreworked.block;
 import java.util.function.Supplier;
 
 import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.AbstractFireBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -38,7 +37,7 @@ public class AzurBlocks {
     "azur_block_1",
     () ->
       new Block(
-        AbstractFireBlock.Properties
+        AbstractBlock.Properties
           .of(Material.STONE)
           .strength(6f)
           .requiresCorrectToolForDrops()
