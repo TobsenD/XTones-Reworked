@@ -7,3 +7,7 @@ The scrolling behavior for the variants was reworked to usual Minecraft recipes 
 
 ## Note
 I will try to offer this mod also for other Forge versions. A port to Fabric will not exist from my side, because I don't play Fabric. Feel free to use the code though, the MIT license has been kept.
+
+# Special Thanks to
+
+[Wheelz0](https://github.com/Wheelz0) for the port to 1.16.5.
