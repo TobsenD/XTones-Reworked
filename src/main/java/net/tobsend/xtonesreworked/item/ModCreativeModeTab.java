@@ -13,9 +13,5 @@ public class ModCreativeModeTab {
       return new ItemStack(ModBlocks.XTONE_TILE.get());
     }
 
-//    @Override
-//    public ItemStack m_6976_() {
-//      return new ItemStack(ModBlocks.XTONE_TILE.get());
-//    }
   };
 }
