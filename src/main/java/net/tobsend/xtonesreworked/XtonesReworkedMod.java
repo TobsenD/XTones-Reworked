@@ -10,6 +10,7 @@ import com.mojang.logging.LogUtils;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -125,7 +126,6 @@ public class XtonesReworkedMod {
     CREATIVE_MODE_TABS.register(modEventBus);
 
     modEventBus.addListener(this::commonSetup);
-    //modEventBus.addListener(this::addCreative);
 
     MinecraftForge.EVENT_BUS.register(this);
   }
@@ -140,6 +140,7 @@ public class XtonesReworkedMod {
         .displayItems((parameters, output) -> {
           output.acceptAll(buildCreativeTabList()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
         })
+        .title(Component.translatable("itemGroup.xtonesreworked"))
         .build()
   );
 
