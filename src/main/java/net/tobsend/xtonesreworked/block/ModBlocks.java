@@ -5,8 +5,8 @@ import com.google.common.base.Supplier;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,7 +19,7 @@ public class ModBlocks {
 
   private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
     ForgeRegistries.BLOCKS,
-    XtonesReworkedMod.MOD_ID
+    XtonesReworkedMod.MODID
   );
 
   public static final RegistryObject<Block> XTONE_TILE = registerBlock(
@@ -27,7 +27,7 @@ public class ModBlocks {
     () ->
       new Block(
         BlockBehaviour.Properties
-          .of(Material.STONE)
+          .of()
           .strength(3f)
           .requiresCorrectToolForDrops()
       )
@@ -38,10 +38,11 @@ public class ModBlocks {
     () ->
       new FlatLamp(
         BlockBehaviour.Properties
-          .of(Material.STONE)
+          .of()
           .strength(3f)
           .requiresCorrectToolForDrops()
           .lightLevel(state -> state.getValue(FlatLamp.LIT) ? 15 : 0)
+          .sound(SoundType.LANTERN)
       )
   );
 

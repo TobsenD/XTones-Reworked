@@ -10,7 +10,7 @@ public class ModItems {
 
   public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(
     ForgeRegistries.ITEMS,
-    XtonesReworkedMod.MOD_ID
+    XtonesReworkedMod.MODID
   );
 
   public static void register(IEventBus eventBus) {
