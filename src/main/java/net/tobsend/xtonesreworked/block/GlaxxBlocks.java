@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -25,10 +26,10 @@ public class GlaxxBlocks {
     XtonesReworkedMod.MOD_ID
   );
 
-  public static final RegistryObject<Block> GLAXX_BLOCK_0 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_0 = registerBlock(
     "glaxx_block_0",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -38,10 +39,10 @@ public class GlaxxBlocks {
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
 
-  public static final RegistryObject<Block> GLAXX_BLOCK_1 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_1 = registerBlock(
     "glaxx_block_1",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -50,10 +51,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_2 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_2 = registerBlock(
     "glaxx_block_2",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -62,10 +63,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_3 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_3 = registerBlock(
     "glaxx_block_3",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -74,10 +75,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_4 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_4 = registerBlock(
     "glaxx_block_4",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -86,10 +87,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_5 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_5 = registerBlock(
     "glaxx_block_5",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -98,10 +99,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_6 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_6 = registerBlock(
     "glaxx_block_6",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -111,10 +112,10 @@ public class GlaxxBlocks {
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
 
-  public static final RegistryObject<Block> GLAXX_BLOCK_7 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_7 = registerBlock(
     "glaxx_block_7",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -123,10 +124,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_8 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_8 = registerBlock(
     "glaxx_block_8",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -135,10 +136,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_9 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_9 = registerBlock(
     "glaxx_block_9",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -147,10 +148,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_10 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_10 = registerBlock(
     "glaxx_block_10",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -159,10 +160,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_11 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_11 = registerBlock(
     "glaxx_block_11",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -171,10 +172,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_12 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_12 = registerBlock(
     "glaxx_block_12",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -183,10 +184,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_13 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_13 = registerBlock(
     "glaxx_block_13",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -195,10 +196,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_14 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_14 = registerBlock(
     "glaxx_block_14",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
@@ -207,10 +208,10 @@ public class GlaxxBlocks {
       ),
     ModCreativeModeTab.XTONE_REWORK_TAB
   );
-  public static final RegistryObject<Block> GLAXX_BLOCK_15 = registerBlock(
+  public static final RegistryObject<GlassBlock> GLAXX_BLOCK_15 = registerBlock(
     "glaxx_block_15",
     () ->
-      new Block(
+      new GlassBlock(
         BlockBehaviour.Properties
           .of(Material.GLASS)
           .strength(1f)
