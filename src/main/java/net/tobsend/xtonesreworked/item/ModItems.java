@@ -1,9 +1,9 @@
 package net.tobsend.xtonesreworked.item;
 
 import net.minecraft.world.item.Item;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.ForgeRegistries;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 
 public class ModItems {
