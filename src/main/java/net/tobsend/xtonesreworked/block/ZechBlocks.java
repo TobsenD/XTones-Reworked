@@ -1,25 +1,24 @@
 package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.ForgeRegistries;
-import net.neoforged.neoforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ZechBlocks {
 
-  private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
-    ForgeRegistries.BLOCKS,
+  private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(
+    XtonesReworkedMod.MODID
+  );
+  public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(
     XtonesReworkedMod.MODID
   );
 
-  public static final RegistryObject<Block> ZECH_BLOCK_0 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_0 = registerBlock(
     "zech_block_0",
     () ->
       new Block(
@@ -30,7 +29,7 @@ public class ZechBlocks {
       )
   );
 
-  public static final RegistryObject<Block> ZECH_BLOCK_1 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_1 = registerBlock(
     "zech_block_1",
     () ->
       new Block(
@@ -40,7 +39,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_2 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_2 = registerBlock(
     "zech_block_2",
     () ->
       new Block(
@@ -50,7 +49,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_3 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_3 = registerBlock(
     "zech_block_3",
     () ->
       new Block(
@@ -60,7 +59,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_4 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_4 = registerBlock(
     "zech_block_4",
     () ->
       new Block(
@@ -70,7 +69,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_5 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_5 = registerBlock(
     "zech_block_5",
     () ->
       new Block(
@@ -80,7 +79,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_6 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_6 = registerBlock(
     "zech_block_6",
     () ->
       new Block(
@@ -91,7 +90,7 @@ public class ZechBlocks {
       )
   );
 
-  public static final RegistryObject<Block> ZECH_BLOCK_7 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_7 = registerBlock(
     "zech_block_7",
     () ->
       new Block(
@@ -101,7 +100,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_8 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_8 = registerBlock(
     "zech_block_8",
     () ->
       new Block(
@@ -111,7 +110,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_9 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_9 = registerBlock(
     "zech_block_9",
     () ->
       new Block(
@@ -121,7 +120,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_10 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_10 = registerBlock(
     "zech_block_10",
     () ->
       new Block(
@@ -131,7 +130,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_11 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_11 = registerBlock(
     "zech_block_11",
     () ->
       new Block(
@@ -141,7 +140,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_12 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_12 = registerBlock(
     "zech_block_12",
     () ->
       new Block(
@@ -151,7 +150,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_13 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_13 = registerBlock(
     "zech_block_13",
     () ->
       new Block(
@@ -161,7 +160,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_14 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_14 = registerBlock(
     "zech_block_14",
     () ->
       new Block(
@@ -171,7 +170,7 @@ public class ZechBlocks {
           .requiresCorrectToolForDrops()
       )
   );
-  public static final RegistryObject<Block> ZECH_BLOCK_15 = registerBlock(
+  public static final DeferredBlock<Block> ZECH_BLOCK_15 = registerBlock(
     "zech_block_15",
     () ->
       new Block(
@@ -182,23 +181,16 @@ public class ZechBlocks {
       )
   );
 
-  private static <T extends Block> RegistryObject<T> registerBlock(
+  private static final <R, T> DeferredBlock<Block> registerBlock(
     String name,
-    Supplier<T> block
+    Supplier<Block> block
   ) {
-    RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn);
-    return toReturn;
-  }
-
-  private static <T extends Block> RegistryObject<Item> registerBlockItem(
-    String name,
-    RegistryObject<T> block
-  ) {
-    return ModItems.ITEMS.register(
+    DeferredBlock<Block> toReturn = BLOCKS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties())
+      block
     );
+    ModItems.ITEMS.registerSimpleBlockItem(toReturn);
+    return toReturn;
   }
 
   public static void register(IEventBus eventBus) {

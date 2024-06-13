@@ -17,15 +17,15 @@ import net.minecraft.world.level.block.Block;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.ForgeRegistries;
-import net.neoforged.neoforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.block.AgonBlocks;
 import net.tobsend.xtonesreworked.block.AzurBlocks;
 import net.tobsend.xtonesreworked.block.BittBlocks;
@@ -70,13 +70,14 @@ public class XtonesReworkedMod {
   public static final String MODID = "xtonesreworked";
   private static final Logger LOGGER = LogUtils.getLogger();
 
-  public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
-  public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+  public static final DeferredRegister<Block> BLOCKS = DeferredRegister.createBlocks(MODID);
+  public static final DeferredRegister<Item> ITEMS = DeferredRegister.createItems(MODID);
   public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-  public XtonesReworkedMod() {
+  public XtonesReworkedMod(IEventBus modEventBus, ModContainer modContainer) {
     LOGGER.info("SETUP Xtones Reworked");
-    IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    modEventBus.addListener(this::commonSetup);
+
 
     ModItems.register(modEventBus);
     ModBlocks.register(modEventBus);
@@ -117,12 +118,10 @@ public class XtonesReworkedMod {
 
     CREATIVE_MODE_TABS.register(modEventBus);
 
-    modEventBus.addListener(this::commonSetup);
-
     NeoForge.EVENT_BUS.register(this);
   }
 
-  public static final RegistryObject<CreativeModeTab> CREACTIVE_TAB = CREATIVE_MODE_TABS.register(
+  public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREACTIVE_TAB = CREATIVE_MODE_TABS.register(
     "xtonestab",
     () ->
       CreativeModeTab
@@ -148,7 +147,7 @@ public class XtonesReworkedMod {
 
   // You can use EventBusSubscriber to automatically register all static methods
   // in the class annotated with @SubscribeEvent
-  @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+  @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
   public static class ClientModEvents {
 
     @SubscribeEvent

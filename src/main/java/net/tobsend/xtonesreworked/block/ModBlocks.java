@@ -1,28 +1,23 @@
 package net.tobsend.xtonesreworked.block;
 
 import com.google.common.base.Supplier;
-
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.ForgeRegistries;
-import net.neoforged.neoforge.registries.RegistryObject;
 import net.tobsend.xtonesreworked.XtonesReworkedMod;
 import net.tobsend.xtonesreworked.block.custom.FlatLamp;
 import net.tobsend.xtonesreworked.item.ModItems;
 
 public class ModBlocks {
 
-  private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
-    ForgeRegistries.BLOCKS,
+  private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(
     XtonesReworkedMod.MODID
   );
 
-  public static final RegistryObject<Block> XTONE_TILE = registerBlock(
+  public static final DeferredBlock<Block> XTONE_TILE = registerBlock(
     "xtone_tile",
     () ->
       new Block(
@@ -33,7 +28,7 @@ public class ModBlocks {
       )
   );
 
-  public static final RegistryObject<Block> FLAT_LAMP = registerBlock(
+  public static final DeferredBlock<Block> FLAT_LAMP = registerBlock(
     "flat_lamp",
     () ->
       new FlatLamp(
@@ -46,28 +41,19 @@ public class ModBlocks {
       )
   );
 
-  private static <T extends Block> RegistryObject<T> registerBlock(
+  private static final <R, T> DeferredBlock<Block> registerBlock(
     String name,
-    Supplier<T> block
+    Supplier<Block> block
   ) {
-    RegistryObject<T> toReturn = BLOCKS.register(name, block);
-    registerBlockItem(name, toReturn);
-    return toReturn;
-  }
-
-  private static <T extends Block> RegistryObject<Item> registerBlockItem(
-    String name,
-    RegistryObject<T> block
-  ) {
-   
-    return ModItems.ITEMS.register(
+    DeferredBlock<Block> toReturn = BLOCKS.register(
       name,
-      () -> new BlockItem(block.get(), new Item.Properties())
+      block
     );
+    ModItems.ITEMS.registerSimpleBlockItem(toReturn);
+    return toReturn;
   }
 
   public static void register(IEventBus eventBus) {
     BLOCKS.register(eventBus);
-    
   }
 }

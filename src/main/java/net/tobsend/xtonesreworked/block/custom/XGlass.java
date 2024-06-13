@@ -1,10 +1,10 @@
 package net.tobsend.xtonesreworked.block.custom;
 
-import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.TransparentBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
-public class XGlass extends GlassBlock{
+public class XGlass extends TransparentBlock{
 
     public XGlass() {
         super(
