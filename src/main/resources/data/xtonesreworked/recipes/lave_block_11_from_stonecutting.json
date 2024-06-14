@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:lave"
 	},
-	"result": "xtonesreworked:lave_block_11"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:lave_block_11"
+	}
   }

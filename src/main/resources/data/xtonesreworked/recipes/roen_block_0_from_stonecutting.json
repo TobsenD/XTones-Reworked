@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:roen"
 	},
-	"result": "xtonesreworked:roen_block_0"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:roen_block_0"
+	}
   }

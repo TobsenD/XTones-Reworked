@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:korp"
 	},
-	"result": "xtonesreworked:korp_block_10"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:korp_block_10"
+	}
   }

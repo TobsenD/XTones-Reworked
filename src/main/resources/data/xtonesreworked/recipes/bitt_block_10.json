@@ -10,7 +10,7 @@
 	},
 	"pattern": ["XDX", "XXX", "XXX"],
 	"result": {
-		"item": "xtonesreworked:bitt_block_10",
+		"id": "xtonesreworked:bitt_block_10",
 		"count": 8
 	}
 }

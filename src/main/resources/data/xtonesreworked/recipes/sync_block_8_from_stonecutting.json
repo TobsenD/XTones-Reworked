@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:sync"
 	},
-	"result": "xtonesreworked:sync_block_8"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:sync_block_8"
+	}
   }

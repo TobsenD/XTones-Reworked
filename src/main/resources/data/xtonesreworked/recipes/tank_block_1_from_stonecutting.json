@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:tank"
 	},
-	"result": "xtonesreworked:tank_block_1"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:tank_block_1"
+	}
   }

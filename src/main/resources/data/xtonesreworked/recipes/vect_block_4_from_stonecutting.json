@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:vect"
 	},
-	"result": "xtonesreworked:vect_block_4"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:vect_block_4"
+	}
   }
