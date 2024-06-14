@@ -10,7 +10,7 @@
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
 	"result": {
-		"item": "xtonesreworked:zion_block_13",
+		"id": "xtonesreworked:zion_block_13",
 		"count": 8
 	}
 }

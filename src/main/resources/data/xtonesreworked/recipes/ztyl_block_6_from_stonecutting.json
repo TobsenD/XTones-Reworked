@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:ztyl"
 	},
-	"result": "xtonesreworked:ztyl_block_6"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:ztyl_block_6"
+	}
   }

@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:lair"
 	},
-	"result": "xtonesreworked:lair_block_15"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:lair_block_15"
+	}
   }

@@ -10,7 +10,7 @@
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
 	"result": {
-		"item": "xtonesreworked:zkul_block_5",
+		"id": "xtonesreworked:zkul_block_5",
 		"count": 8
 	}
 }

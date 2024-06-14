@@ -53,7 +53,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".jso
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
 	"result": {
-		"item": "xtonesreworked:$1_block_$i",
+		"id": "xtonesreworked:$1_block_$i",
 		"count": 8
 	}
 }
@@ -66,7 +66,10 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i"_fro
 	"ingredient": {
 	  "tag": "xtonesreworked:$1"
 	},
-	"result": "xtonesreworked:$1_block_$i"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:$1_block_$i"
+	}
   }
 EOF
 ###BLOCK-COMMENT
@@ -107,7 +110,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_0_altern
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
 	"result": {
-		"item": "xtonesreworked:$1_block_$i",
+		"id": "xtonesreworked:$1_block_$i",
 		"count": 8
 	}
 }

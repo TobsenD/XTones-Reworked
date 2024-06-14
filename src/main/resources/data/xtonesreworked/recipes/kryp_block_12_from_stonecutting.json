@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:kryp"
 	},
-	"result": "xtonesreworked:kryp_block_12"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:kryp_block_12"
+	}
   }

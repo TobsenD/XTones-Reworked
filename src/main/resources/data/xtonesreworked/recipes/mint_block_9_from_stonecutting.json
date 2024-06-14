@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:mint"
 	},
-	"result": "xtonesreworked:mint_block_9"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:mint_block_9"
+	}
   }

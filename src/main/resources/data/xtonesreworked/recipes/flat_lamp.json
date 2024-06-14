@@ -13,7 +13,7 @@
 	},
 	"pattern": ["   ", "IDI","SSS"],
 	"result": {
-		"item": "xtonesreworked:flat_lamp",
+		"id": "xtonesreworked:flat_lamp",
 		"count": 2
 	}
 }

@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:azur"
 	},
-	"result": "xtonesreworked:azur_block_11"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:azur_block_11"
+	}
   }

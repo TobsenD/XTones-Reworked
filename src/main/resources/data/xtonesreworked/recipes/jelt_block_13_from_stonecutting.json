@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:jelt"
 	},
-	"result": "xtonesreworked:jelt_block_13"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:jelt_block_13"
+	}
   }

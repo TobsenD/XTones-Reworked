@@ -4,5 +4,8 @@
 	"ingredient": {
 	  "tag": "xtonesreworked:reed"
 	},
-	"result": "xtonesreworked:reed_block_4"
+	"result": {
+		"count": 1,
+		"id": "xtonesreworked:reed_block_4"
+	}
   }
