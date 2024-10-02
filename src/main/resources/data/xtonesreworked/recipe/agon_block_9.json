@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:agon"
 		},
 		"D": {
-			"item": "minecraft:pink_dye"
+			"tag": "forge:dyes/pink"
 		}
 	},
 	"pattern": ["XXX", "XDX", "XXX"],

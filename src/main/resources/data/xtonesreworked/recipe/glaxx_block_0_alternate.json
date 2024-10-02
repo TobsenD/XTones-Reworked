@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:glaxx"
 		},
 		"G": {
-			"item": "minecraft:white_dye"
+			"tag": "forge:dyes/white"
 		}
 	},
 	"pattern": ["BBB", "BGB", "BBB"],

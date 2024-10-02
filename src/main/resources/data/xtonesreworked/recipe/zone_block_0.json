@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zone"
 		},
 		"C": {
-			"item": "minecraft:white_dye"
+			"tag": "forge:dyes/white"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

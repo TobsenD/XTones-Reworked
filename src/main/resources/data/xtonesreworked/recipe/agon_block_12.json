@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:agon"
 		},
 		"D": {
-			"item": "minecraft:brown_dye"
+			"tag": "forge:dyes/brown"
 		}
 	},
 	"pattern": ["XXX", "XDX", "XXX"],
