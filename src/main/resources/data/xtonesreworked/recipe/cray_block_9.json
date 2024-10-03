@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:cray"
 		},
 		"C": {
-			"item": "minecraft:purple_dye"
+			"tag": "c:dyes/purple"
 		}
 	},
 	"pattern": ["BCB", "BBB", "BBB"],

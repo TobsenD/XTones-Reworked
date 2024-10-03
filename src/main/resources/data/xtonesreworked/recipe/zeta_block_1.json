@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zeta"
 		},
 		"C": {
-			"item": "minecraft:yellow_dye"
+			"tag": "c:dyes/yellow"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

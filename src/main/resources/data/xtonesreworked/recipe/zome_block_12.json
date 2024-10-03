@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zome"
 		},
 		"C": {
-			"item": "minecraft:red_dye"
+			"tag": "c:dyes/red"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

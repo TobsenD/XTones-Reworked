@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:glaxx"
 		},
 		"C": {
-			"item": "minecraft:yellow_dye"
+			"tag": "c:dyes/yellow"
 		}
 	},
 	"pattern": ["BBB", "BBB", "BCB"],

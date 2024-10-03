@@ -48,7 +48,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_"$i".jso
 			"tag": "xtonesreworked:$1"
 		},
 		"C": {
-			"item": "minecraft:yellow_dye"
+			"tag": "c:dyes/yellow"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
@@ -102,7 +102,7 @@ cat <<EOF > ./src/main/resources/data/xtonesreworked/recipes/"$1"_block_0_altern
 			"item": "xtonesreworked:xtone_tile"
 		},
 		"C": {
-			"item": "minecraft:yellow_dye"
+			"tag": "c:dyes/yellow"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

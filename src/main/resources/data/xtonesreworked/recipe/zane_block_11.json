@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zane"
 		},
 		"C": {
-			"item": "minecraft:pink_dye"
+			"tag": "c:dyes/pink"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

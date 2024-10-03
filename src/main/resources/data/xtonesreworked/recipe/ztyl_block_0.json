@@ -5,7 +5,7 @@
 			"item": "xtonesreworked:xtone_tile"
 		},
 		"C": {
-			"item": "minecraft:light_gray_dye"
+			"tag": "c:dyes/light_gray"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

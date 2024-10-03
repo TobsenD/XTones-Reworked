@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zech"
 		},
 		"C": {
-			"item": "minecraft:lime_dye"
+			"tag": "c:dyes/lime"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

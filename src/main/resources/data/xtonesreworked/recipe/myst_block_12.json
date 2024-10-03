@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:myst"
 		},
 		"C": {
-			"item": "minecraft:green_dye"
+			"tag": "c:dyes/green"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

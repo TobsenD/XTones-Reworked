@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:agon"
 		},
 		"D": {
-			"item": "minecraft:magenta_dye"
+			"tag": "c:dyes/magenta"
 		}
 	},
 	"pattern": ["XXX", "XDX", "XXX"],

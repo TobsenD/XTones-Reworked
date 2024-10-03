@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:agon"
 		},
 		"D": {
-			"item": "minecraft:lime_dye"
+			"tag": "c:dyes/lime"
 		}
 	},
 	"pattern": ["XXX", "XDX", "XXX"],
