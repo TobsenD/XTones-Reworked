@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zyth"
 		},
 		"C": {
-			"item": "minecraft:orange_dye"
+			"tag": "forge:dyes/orange"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

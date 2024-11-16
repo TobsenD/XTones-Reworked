@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:fort"
 		},
 		"C": {
-			"item": "minecraft:purple_dye"
+			"tag": "forge:dyes/purple"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

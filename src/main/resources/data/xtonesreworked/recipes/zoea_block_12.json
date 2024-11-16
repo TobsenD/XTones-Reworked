@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zoea"
 		},
 		"C": {
-			"item": "minecraft:red_dye"
+			"tag": "forge:dyes/red"
 		}
 	},
 	"pattern": ["BBB", "BBB", "BCB"],

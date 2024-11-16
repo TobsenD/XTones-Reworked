@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:bitt"
 		},
 		"D": {
-			"item": "minecraft:brown_dye"
+			"tag": "forge:dyes/brown"
 		}
 	},
 	"pattern": ["XXX", "XDX", "XXX"],

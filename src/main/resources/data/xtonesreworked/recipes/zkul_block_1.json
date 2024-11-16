@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zkul"
 		},
 		"C": {
-			"item": "minecraft:yellow_dye"
+			"tag": "forge:dyes/yellow"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:iszm"
 		},
 		"C": {
-			"item": "minecraft:pink_dye"
+			"tag": "forge:dyes/pink"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:zech"
 		},
 		"C": {
-			"item": "minecraft:red_dye"
+			"tag": "forge:dyes/red"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],

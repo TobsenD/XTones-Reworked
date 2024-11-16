@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:bitt"
 		},
 		"D": {
-			"item": "minecraft:light_blue_dye"
+			"tag": "forge:dyes/light_blue"
 		}
 	},
 	"pattern": ["XDX", "XXX", "XXX"],

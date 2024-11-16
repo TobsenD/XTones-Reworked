@@ -5,7 +5,7 @@
 			"item": "xtonesreworked:xtone_tile"
 		},
 		"S": {
-			"item": "minecraft:blue_dye"
+			"tag": "forge:dyes/blue"
 		}
 	},
 	"pattern": ["BBB", "BSB", "BBB"],

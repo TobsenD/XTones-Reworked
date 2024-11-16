@@ -5,7 +5,7 @@
 			"tag": "xtonesreworked:glaxx"
 		},
 		"C": {
-			"item": "minecraft:light_blue_dye"
+			"tag": "forge:dyes/light_blue"
 		}
 	},
 	"pattern": ["BBB", "BCB", "BBB"],
