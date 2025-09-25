@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class VenaBlocks {
 
   public static final DeferredBlock<Block> VENA_BLOCK_0 = registerBlock(
     "vena_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
 
   public static final DeferredBlock<Block> VENA_BLOCK_1 = registerBlock(
     "vena_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_2 = registerBlock(
     "vena_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_3 = registerBlock(
     "vena_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_4 = registerBlock(
     "vena_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_5 = registerBlock(
     "vena_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_6 = registerBlock(
     "vena_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
 
   public static final DeferredBlock<Block> VENA_BLOCK_7 = registerBlock(
     "vena_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_8 = registerBlock(
     "vena_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_9 = registerBlock(
     "vena_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_10 = registerBlock(
     "vena_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_11 = registerBlock(
     "vena_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_12 = registerBlock(
     "vena_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_13 = registerBlock(
     "vena_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_14 = registerBlock(
     "vena_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_15 = registerBlock(
     "vena_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

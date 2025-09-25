@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class JeltBlocks {
 
   public static final DeferredBlock<Block> JELT_BLOCK_0 = registerBlock(
     "jelt_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
 
   public static final DeferredBlock<Block> JELT_BLOCK_1 = registerBlock(
     "jelt_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_2 = registerBlock(
     "jelt_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_3 = registerBlock(
     "jelt_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_4 = registerBlock(
     "jelt_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_5 = registerBlock(
     "jelt_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_6 = registerBlock(
     "jelt_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
 
   public static final DeferredBlock<Block> JELT_BLOCK_7 = registerBlock(
     "jelt_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_8 = registerBlock(
     "jelt_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_9 = registerBlock(
     "jelt_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_10 = registerBlock(
     "jelt_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_11 = registerBlock(
     "jelt_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_12 = registerBlock(
     "jelt_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_13 = registerBlock(
     "jelt_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_14 = registerBlock(
     "jelt_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> JELT_BLOCK_15 = registerBlock(
     "jelt_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BROWN)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

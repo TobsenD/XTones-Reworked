@@ -4,6 +4,7 @@ import com.google.common.base.Supplier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -25,6 +26,7 @@ public class ModBlocks {
           .of()
           .strength(3f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.STONE)
       )
   );
 
@@ -38,6 +40,8 @@ public class ModBlocks {
           .requiresCorrectToolForDrops()
           .lightLevel(state -> state.getValue(FlatLamp.LIT) ? 15 : 0)
           .sound(SoundType.LANTERN)
+          .mapColor(MapColor.STONE)
+
       )
   );
 

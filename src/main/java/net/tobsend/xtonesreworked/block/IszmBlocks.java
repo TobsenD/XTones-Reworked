@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class IszmBlocks {
 
   public static final DeferredBlock<Block> ISZM_BLOCK_0 = registerBlock(
     "iszm_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
   );
 
   public static final DeferredBlock<Block> ISZM_BLOCK_1 = registerBlock(
     "iszm_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_2 = registerBlock(
     "iszm_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GRAY)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_3 = registerBlock(
     "iszm_block_3",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_GRAY)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_4 = registerBlock(
     "iszm_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_YELLOW)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_5 = registerBlock(
     "iszm_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_6 = registerBlock(
     "iszm_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
 
   public static final DeferredBlock<Block> ISZM_BLOCK_7 = registerBlock(
     "iszm_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_8 = registerBlock(
     "iszm_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_9 = registerBlock(
     "iszm_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_YELLOW)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_10 = registerBlock(
     "iszm_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_RED)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_11 = registerBlock(
     "iszm_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_12 = registerBlock(
     "iszm_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_13 = registerBlock(
     "iszm_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_14 = registerBlock(
     "iszm_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_BLUE)
   );
   public static final DeferredBlock<Block> ISZM_BLOCK_15 = registerBlock(
     "iszm_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_PURPLE)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

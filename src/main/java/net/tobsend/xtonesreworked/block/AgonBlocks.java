@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -17,69 +18,69 @@ public class AgonBlocks {
 
   public static final DeferredBlock<Block> AGON_BLOCK_0 = registerBlock(
     "agon_block_0",
-    XBlock::new
+          () -> new XBlock(MapColor.TERRACOTTA_WHITE)
   );
 
   public static final DeferredBlock<Block> AGON_BLOCK_1 = registerBlock(
     "agon_block_1",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_YELLOW)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_2 = registerBlock(
     "agon_block_2",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_LIGHT_GREEN)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_3 = registerBlock(
     "agon_block_3",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_4 = registerBlock(
     "agon_block_4",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_5 = registerBlock(
     "agon_block_5",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_LIGHT_BLUE)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_6 = registerBlock(
     "agon_block_6",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_BLUE)
   );
 
   public static final DeferredBlock<Block> AGON_BLOCK_7 = registerBlock(
     "agon_block_7",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_PURPLE)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_8 = registerBlock(
     "agon_block_8",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_MAGENTA)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_9 = registerBlock(
     "agon_block_9",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_PINK)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_10 = registerBlock(
     "agon_block_10",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_RED)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_11 = registerBlock(
     "agon_block_11",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_12 = registerBlock(
     "agon_block_12",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_13 = registerBlock(
     "agon_block_13",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_14 = registerBlock(
     "agon_block_14",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_GRAY)
   );
   public static final DeferredBlock<Block> AGON_BLOCK_15 = registerBlock(
     "agon_block_15",
-    XBlock::new
+          () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

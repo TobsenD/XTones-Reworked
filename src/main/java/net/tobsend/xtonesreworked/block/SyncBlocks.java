@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class SyncBlocks {
 
   public static final DeferredBlock<Block> SYNC_BLOCK_0 = registerBlock(
     "sync_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
 
   public static final DeferredBlock<Block> SYNC_BLOCK_1 = registerBlock(
     "sync_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_2 = registerBlock(
     "sync_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_3 = registerBlock(
     "sync_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_4 = registerBlock(
     "sync_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_5 = registerBlock(
     "sync_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_6 = registerBlock(
     "sync_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
 
   public static final DeferredBlock<Block> SYNC_BLOCK_7 = registerBlock(
     "sync_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_8 = registerBlock(
     "sync_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_9 = registerBlock(
     "sync_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_10 = registerBlock(
     "sync_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_11 = registerBlock(
     "sync_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_12 = registerBlock(
     "sync_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_13 = registerBlock(
     "sync_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_14 = registerBlock(
     "sync_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_15 = registerBlock(
     "sync_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

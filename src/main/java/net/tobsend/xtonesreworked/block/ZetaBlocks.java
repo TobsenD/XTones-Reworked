@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class ZetaBlocks {
 
   public static final DeferredBlock<Block> ZETA_BLOCK_0 = registerBlock(
     "zeta_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZETA_BLOCK_1 = registerBlock(
     "zeta_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_2 = registerBlock(
     "zeta_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_3 = registerBlock(
     "zeta_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_4 = registerBlock(
     "zeta_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_5 = registerBlock(
     "zeta_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_6 = registerBlock(
     "zeta_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZETA_BLOCK_7 = registerBlock(
     "zeta_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_8 = registerBlock(
     "zeta_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_9 = registerBlock(
     "zeta_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_10 = registerBlock(
     "zeta_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_11 = registerBlock(
     "zeta_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_12 = registerBlock(
     "zeta_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_13 = registerBlock(
     "zeta_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_14 = registerBlock(
     "zeta_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZETA_BLOCK_15 = registerBlock(
     "zeta_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

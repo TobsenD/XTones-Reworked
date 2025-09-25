@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class KrypBlocks {
 
   public static final DeferredBlock<Block> KRYP_BLOCK_0 = registerBlock(
     "kryp_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
 
   public static final DeferredBlock<Block> KRYP_BLOCK_1 = registerBlock(
     "kryp_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_2 = registerBlock(
     "kryp_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_3 = registerBlock(
     "kryp_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_4 = registerBlock(
     "kryp_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_5 = registerBlock(
     "kryp_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_6 = registerBlock(
     "kryp_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
 
   public static final DeferredBlock<Block> KRYP_BLOCK_7 = registerBlock(
     "kryp_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_8 = registerBlock(
     "kryp_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_9 = registerBlock(
     "kryp_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_10 = registerBlock(
     "kryp_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_11 = registerBlock(
     "kryp_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_12 = registerBlock(
     "kryp_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_13 = registerBlock(
     "kryp_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_14 = registerBlock(
     "kryp_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_15 = registerBlock(
     "kryp_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.CLAY)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

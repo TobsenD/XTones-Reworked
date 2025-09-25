@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class ZythBlocks {
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_0 = registerBlock(
     "zyth_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_1 = registerBlock(
     "zyth_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_2 = registerBlock(
     "zyth_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_3 = registerBlock(
     "zyth_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_4 = registerBlock(
     "zyth_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_5 = registerBlock(
     "zyth_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_6 = registerBlock(
     "zyth_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_7 = registerBlock(
     "zyth_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_8 = registerBlock(
     "zyth_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_9 = registerBlock(
     "zyth_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_10 = registerBlock(
     "zyth_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_11 = registerBlock(
     "zyth_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_12 = registerBlock(
     "zyth_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_13 = registerBlock(
     "zyth_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_14 = registerBlock(
     "zyth_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_15 = registerBlock(
     "zyth_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

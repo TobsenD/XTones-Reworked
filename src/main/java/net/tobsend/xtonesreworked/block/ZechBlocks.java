@@ -3,6 +3,7 @@ package net.tobsend.xtonesreworked.block;
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -26,6 +27,8 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
 
@@ -37,6 +40,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_2 = registerBlock(
@@ -47,6 +51,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_3 = registerBlock(
@@ -57,6 +62,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_4 = registerBlock(
@@ -67,6 +73,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_5 = registerBlock(
@@ -77,6 +84,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_6 = registerBlock(
@@ -87,6 +95,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
 
@@ -98,6 +107,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_8 = registerBlock(
@@ -108,6 +118,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_9 = registerBlock(
@@ -118,6 +129,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_10 = registerBlock(
@@ -128,6 +140,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_11 = registerBlock(
@@ -138,6 +151,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_12 = registerBlock(
@@ -148,6 +162,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_13 = registerBlock(
@@ -158,6 +173,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_14 = registerBlock(
@@ -168,6 +184,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
   public static final DeferredBlock<Block> ZECH_BLOCK_15 = registerBlock(
@@ -178,6 +195,7 @@ public class ZechBlocks {
           .of()
           .strength(6f)
           .requiresCorrectToolForDrops()
+          .mapColor(MapColor.COLOR_BLACK)
       )
   );
 

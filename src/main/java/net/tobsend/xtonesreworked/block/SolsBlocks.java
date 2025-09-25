@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class SolsBlocks {
 
   public static final DeferredBlock<Block> SOLS_BLOCK_0 = registerBlock(
     "sols_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
 
   public static final DeferredBlock<Block> SOLS_BLOCK_1 = registerBlock(
     "sols_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_2 = registerBlock(
     "sols_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_3 = registerBlock(
     "sols_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_4 = registerBlock(
     "sols_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_5 = registerBlock(
     "sols_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_6 = registerBlock(
     "sols_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
 
   public static final DeferredBlock<Block> SOLS_BLOCK_7 = registerBlock(
     "sols_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_8 = registerBlock(
     "sols_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_9 = registerBlock(
     "sols_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_10 = registerBlock(
     "sols_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_11 = registerBlock(
     "sols_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_12 = registerBlock(
     "sols_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_13 = registerBlock(
     "sols_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_14 = registerBlock(
     "sols_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> SOLS_BLOCK_15 = registerBlock(
     "sols_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

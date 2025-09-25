@@ -2,6 +2,7 @@ package net.tobsend.xtonesreworked.block;
 
 import java.util.function.Supplier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,69 +21,69 @@ public class ZestBlocks {
 
   public static final DeferredBlock<Block> ZEST_BLOCK_0 = registerBlock(
     "zest_block_0",
-    XBlock::new
+    () -> new XBlock(MapColor.TERRACOTTA_WHITE)
   );
 
   public static final DeferredBlock<Block> ZEST_BLOCK_1 = registerBlock(
     "zest_block_1",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_YELLOW)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_2 = registerBlock(
     "zest_block_2",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_GREEN)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_3 = registerBlock(
     "zest_block_3",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_GREEN)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_4 = registerBlock(
     "zest_block_4",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_5 = registerBlock(
     "zest_block_5",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_6 = registerBlock(
     "zest_block_6",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_LIGHT_BLUE)
   );
 
   public static final DeferredBlock<Block> ZEST_BLOCK_7 = registerBlock(
     "zest_block_7",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_8 = registerBlock(
     "zest_block_8",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_PURPLE)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_9 = registerBlock(
     "zest_block_9",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_MAGENTA)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_10 = registerBlock(
     "zest_block_10",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_PINK)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_11 = registerBlock(
     "zest_block_11",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_RED)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_12 = registerBlock(
     "zest_block_12",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_RED)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_13 = registerBlock(
     "zest_block_13",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_14 = registerBlock(
     "zest_block_14",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> ZEST_BLOCK_15 = registerBlock(
     "zest_block_15",
-    XBlock::new
+    () -> new XBlock(MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(
