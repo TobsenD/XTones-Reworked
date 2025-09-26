@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"item": "xtonesreworked:xtone_tile"
-		},
-		"S": {
-			"tag": "c:dyes/blue"
-		}
-	},
-	"pattern": ["BBB", "BSB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:azur_block_0",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "xtonesreworked:xtone_tile",
+        "S": "minecraft:blue_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BSB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:azur_block_0",
+        "count": 8
+    }
 }

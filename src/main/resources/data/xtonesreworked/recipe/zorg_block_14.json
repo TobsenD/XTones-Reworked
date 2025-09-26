@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:zorg"
-		},
-		"C": {
-			"tag": "c:dyes/orange"
-		}
-	},
-	"pattern": ["BBB", "BCB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:zorg_block_14",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:zorg",
+        "C": "minecraft:orange_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BCB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:zorg_block_14",
+        "count": 8
+    }
 }

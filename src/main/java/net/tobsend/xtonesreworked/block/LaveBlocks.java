@@ -21,69 +21,69 @@ public class LaveBlocks {
 
   public static final DeferredBlock<Block> LAVE_BLOCK_0 = registerBlock(
     "lave_block_0",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_0",MapColor.COLOR_LIGHT_GRAY)
   );
 
   public static final DeferredBlock<Block> LAVE_BLOCK_1 = registerBlock(
     "lave_block_1",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_1",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_2 = registerBlock(
     "lave_block_2",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_2",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_3 = registerBlock(
     "lave_block_3",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_3",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_4 = registerBlock(
     "lave_block_4",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_4",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_5 = registerBlock(
     "lave_block_5",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_5",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_6 = registerBlock(
     "lave_block_6",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_6",MapColor.COLOR_LIGHT_GRAY)
   );
 
   public static final DeferredBlock<Block> LAVE_BLOCK_7 = registerBlock(
     "lave_block_7",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_7",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_8 = registerBlock(
     "lave_block_8",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_8",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_9 = registerBlock(
     "lave_block_9",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_9",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_10 = registerBlock(
     "lave_block_10",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_10",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_11 = registerBlock(
     "lave_block_11",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_11",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_12 = registerBlock(
     "lave_block_12",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_12",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_13 = registerBlock(
     "lave_block_13",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_13",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_14 = registerBlock(
     "lave_block_14",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_14",MapColor.COLOR_LIGHT_GRAY)
   );
   public static final DeferredBlock<Block> LAVE_BLOCK_15 = registerBlock(
     "lave_block_15",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GRAY)
+    () -> new XBlock("lave_block_15",MapColor.COLOR_LIGHT_GRAY)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:glaxx"
-		},
-		"C": {
-			"tag": "c:dyes/green"
-		}
-	},
-	"pattern": ["BCB", "BBB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:glaxx_block_2",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:glaxx",
+        "C": "minecraft:green_dye"
+    },
+    "pattern": [
+        "BCB",
+        "BBB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:glaxx_block_2",
+        "count": 8
+    }
 }

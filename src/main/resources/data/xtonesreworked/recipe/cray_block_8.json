@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:cray"
-		},
-		"C": {
-			"tag": "c:dyes/purple"
-		}
-	},
-	"pattern": ["BBB", "BBB", "BCB"],
-	"result": {
-		"id": "xtonesreworked:cray_block_8",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:cray",
+        "C": "minecraft:purple_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BCB"
+    ],
+    "result": {
+        "id": "xtonesreworked:cray_block_8",
+        "count": 8
+    }
 }

@@ -147,7 +147,7 @@ public class XtonesReworkedMod {
 
   // You can use EventBusSubscriber to automatically register all static methods
   // in the class annotated with @SubscribeEvent
-  @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+  @Mod(value = XtonesReworkedMod.MODID, dist = Dist.CLIENT)
   public static class ClientModEvents {
 
     @SubscribeEvent

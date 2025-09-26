@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"item": "xtonesreworked:xtone_tile"
-		},
-		"S": {
-			"tag": "c:dyes/orange"
-		}
-	},
-	"pattern": ["BBB", "BSB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:jelt_block_0",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "xtonesreworked:xtone_tile",
+        "S": "minecraft:orange_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BSB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:jelt_block_0",
+        "count": 8
+    }
 }

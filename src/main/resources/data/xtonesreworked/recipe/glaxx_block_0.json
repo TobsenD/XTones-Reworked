@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"item": "xtonesreworked:xtone_tile"
-		},
-		"G": {
-			"item": "minecraft:glass"
-		}
-	},
-	"pattern": ["BBB", "BGB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:glaxx_block_0",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "xtonesreworked:xtone_tile",
+        "G": "minecraft:glass"
+    },
+    "pattern": [
+        "BBB",
+        "BGB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:glaxx_block_0",
+        "count": 8
+    }
 }

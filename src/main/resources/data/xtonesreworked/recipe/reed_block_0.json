@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"item": "xtonesreworked:xtone_tile"
-		},
-		"C": {
-			"item": "minecraft:sugar_cane"
-		}
-	},
-	"pattern": ["BBB", "BCB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:reed_block_0",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "xtonesreworked:xtone_tile",
+        "C": "minecraft:sugar_cane"
+    },
+    "pattern": [
+        "BBB",
+        "BCB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:reed_block_0",
+        "count": 8
+    }
 }

@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:fort"
-		},
-		"C": {
-			"tag": "c:dyes/red"
-		}
-	},
-	"pattern": ["BCB", "BBB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:fort_block_15",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:fort",
+        "C": "minecraft:red_dye"
+    },
+    "pattern": [
+        "BCB",
+        "BBB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:fort_block_15",
+        "count": 8
+    }
 }

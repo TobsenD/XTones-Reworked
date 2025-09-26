@@ -21,69 +21,69 @@ public class VenaBlocks {
 
   public static final DeferredBlock<Block> VENA_BLOCK_0 = registerBlock(
     "vena_block_0",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_0",MapColor.COLOR_CYAN)
   );
 
   public static final DeferredBlock<Block> VENA_BLOCK_1 = registerBlock(
     "vena_block_1",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_1",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_2 = registerBlock(
     "vena_block_2",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_2",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_3 = registerBlock(
     "vena_block_3",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_3",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_4 = registerBlock(
     "vena_block_4",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_4",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_5 = registerBlock(
     "vena_block_5",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_5",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_6 = registerBlock(
     "vena_block_6",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_6",MapColor.COLOR_CYAN)
   );
 
   public static final DeferredBlock<Block> VENA_BLOCK_7 = registerBlock(
     "vena_block_7",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_7",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_8 = registerBlock(
     "vena_block_8",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_8",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_9 = registerBlock(
     "vena_block_9",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_9",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_10 = registerBlock(
     "vena_block_10",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_10",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_11 = registerBlock(
     "vena_block_11",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_11",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_12 = registerBlock(
     "vena_block_12",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_12",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_13 = registerBlock(
     "vena_block_13",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_13",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_14 = registerBlock(
     "vena_block_14",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_14",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> VENA_BLOCK_15 = registerBlock(
     "vena_block_15",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("vena_block_15",MapColor.COLOR_CYAN)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

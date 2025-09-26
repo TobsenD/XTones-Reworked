@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:iszm"
-		},
-		"C": {
-			"tag": "c:dyes/black"
-		}
-	},
-	"pattern": ["BBB", "BCB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:iszm_block_2",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:iszm",
+        "C": "minecraft:black_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BCB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:iszm_block_2",
+        "count": 8
+    }
 }

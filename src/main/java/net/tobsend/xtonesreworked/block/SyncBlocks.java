@@ -21,69 +21,69 @@ public class SyncBlocks {
 
   public static final DeferredBlock<Block> SYNC_BLOCK_0 = registerBlock(
     "sync_block_0",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_0",MapColor.COLOR_GREEN)
   );
 
   public static final DeferredBlock<Block> SYNC_BLOCK_1 = registerBlock(
     "sync_block_1",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_1",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_2 = registerBlock(
     "sync_block_2",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_2",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_3 = registerBlock(
     "sync_block_3",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_3",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_4 = registerBlock(
     "sync_block_4",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_4",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_5 = registerBlock(
     "sync_block_5",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_5",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_6 = registerBlock(
     "sync_block_6",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_6",MapColor.COLOR_GREEN)
   );
 
   public static final DeferredBlock<Block> SYNC_BLOCK_7 = registerBlock(
     "sync_block_7",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_7",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_8 = registerBlock(
     "sync_block_8",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_8",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_9 = registerBlock(
     "sync_block_9",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_9",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_10 = registerBlock(
     "sync_block_10",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_10",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_11 = registerBlock(
     "sync_block_11",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_11",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_12 = registerBlock(
     "sync_block_12",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_12",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_13 = registerBlock(
     "sync_block_13",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_13",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_14 = registerBlock(
     "sync_block_14",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_14",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> SYNC_BLOCK_15 = registerBlock(
     "sync_block_15",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("sync_block_15",MapColor.COLOR_GREEN)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

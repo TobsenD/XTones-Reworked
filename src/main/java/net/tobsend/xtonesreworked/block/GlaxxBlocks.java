@@ -20,69 +20,69 @@ public class GlaxxBlocks {
 
   public static final DeferredBlock<Block> GLAXX_BLOCK_0 = registerBlock(
     "glaxx_block_0",
-    XGlass::new
+    () -> new XGlass("glaxx_block_0")
   );
 
   public static final DeferredBlock<Block> GLAXX_BLOCK_1 = registerBlock(
     "glaxx_block_1",
-    XGlass::new
+    () -> new XGlass("glaxx_block_1")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_2 = registerBlock(
     "glaxx_block_2",
-    XGlass::new
+    () -> new XGlass("glaxx_block_2")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_3 = registerBlock(
     "glaxx_block_3",
-    XGlass::new
+    () -> new XGlass("glaxx_block_3")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_4 = registerBlock(
     "glaxx_block_4",
-    XGlass::new
+    () -> new XGlass("glaxx_block_4")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_5 = registerBlock(
     "glaxx_block_5",
-    XGlass::new
+    () -> new XGlass("glaxx_block_5")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_6 = registerBlock(
     "glaxx_block_6",
-    XGlass::new
+    () -> new XGlass("glaxx_block_6")
   );
 
   public static final DeferredBlock<Block> GLAXX_BLOCK_7 = registerBlock(
     "glaxx_block_7",
-    XGlass::new
+    () -> new XGlass("glaxx_block_7")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_8 = registerBlock(
     "glaxx_block_8",
-    XGlass::new
+    () -> new XGlass("glaxx_block_8")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_9 = registerBlock(
     "glaxx_block_9",
-    XGlass::new
+    () -> new XGlass("glaxx_block_9")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_10 = registerBlock(
     "glaxx_block_10",
-    XGlass::new
+    () -> new XGlass("glaxx_block_10")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_11 = registerBlock(
     "glaxx_block_11",
-    XGlass::new
+    () -> new XGlass("glaxx_block_11")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_12 = registerBlock(
     "glaxx_block_12",
-    XGlass::new
+    () -> new XGlass("glaxx_block_12")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_13 = registerBlock(
     "glaxx_block_13",
-    XGlass::new
+    () -> new XGlass("glaxx_block_13")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_14 = registerBlock(
     "glaxx_block_14",
-    XGlass::new
+    () -> new XGlass("glaxx_block_14")
   );
   public static final DeferredBlock<Block> GLAXX_BLOCK_15 = registerBlock(
     "glaxx_block_15",
-    XGlass::new
+    () -> new XGlass("glaxx_block_15")
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

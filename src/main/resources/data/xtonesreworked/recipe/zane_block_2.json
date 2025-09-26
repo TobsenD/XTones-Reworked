@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:zane"
-		},
-		"C": {
-			"tag": "c:dyes/lime"
-		}
-	},
-	"pattern": ["BBB", "BBB", "BCB"],
-	"result": {
-		"id": "xtonesreworked:zane_block_2",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:zane",
+        "C": "minecraft:lime_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BCB"
+    ],
+    "result": {
+        "id": "xtonesreworked:zane_block_2",
+        "count": 8
+    }
 }

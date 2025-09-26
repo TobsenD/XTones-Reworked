@@ -1,11 +1,8 @@
 {
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-	  "tag": "xtonesreworked:tank"
-	},
-	"result": {
-		"count": 1,
-		"id": "xtonesreworked:tank_block_10"
-	}
-  }
+    "type": "minecraft:stonecutting",
+    "ingredient": "#xtonesreworked:tank",
+    "result": {
+        "count": 1,
+        "id": "xtonesreworked:tank_block_10"
+    }
+}

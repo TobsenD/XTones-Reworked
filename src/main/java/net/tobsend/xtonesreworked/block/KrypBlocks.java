@@ -21,69 +21,69 @@ public class KrypBlocks {
 
   public static final DeferredBlock<Block> KRYP_BLOCK_0 = registerBlock(
     "kryp_block_0",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_0",MapColor.CLAY)
   );
 
   public static final DeferredBlock<Block> KRYP_BLOCK_1 = registerBlock(
     "kryp_block_1",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_1",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_2 = registerBlock(
     "kryp_block_2",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_2",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_3 = registerBlock(
     "kryp_block_3",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_3",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_4 = registerBlock(
     "kryp_block_4",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_4",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_5 = registerBlock(
     "kryp_block_5",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_5",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_6 = registerBlock(
     "kryp_block_6",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_6",MapColor.CLAY)
   );
 
   public static final DeferredBlock<Block> KRYP_BLOCK_7 = registerBlock(
     "kryp_block_7",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_7",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_8 = registerBlock(
     "kryp_block_8",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_8",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_9 = registerBlock(
     "kryp_block_9",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_9",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_10 = registerBlock(
     "kryp_block_10",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_10",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_11 = registerBlock(
     "kryp_block_11",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_11",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_12 = registerBlock(
     "kryp_block_12",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_12",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_13 = registerBlock(
     "kryp_block_13",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_13",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_14 = registerBlock(
     "kryp_block_14",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_14",MapColor.CLAY)
   );
   public static final DeferredBlock<Block> KRYP_BLOCK_15 = registerBlock(
     "kryp_block_15",
-    () -> new XBlock(MapColor.CLAY)
+    () -> new XBlock("kryp_block_15",MapColor.CLAY)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

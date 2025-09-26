@@ -21,69 +21,69 @@ public class ZoeaBlocks {
 
   public static final DeferredBlock<Block> ZOEA_BLOCK_0 = registerBlock(
     "zoea_block_0",
-    () -> new XBlock(MapColor.TERRACOTTA_WHITE)
+    () -> new XBlock("zoea_block_0",MapColor.TERRACOTTA_WHITE)
   );
 
   public static final DeferredBlock<Block> ZOEA_BLOCK_1 = registerBlock(
     "zoea_block_1",
-    () -> new XBlock(MapColor.COLOR_YELLOW)
+    () -> new XBlock("zoea_block_1",MapColor.COLOR_YELLOW)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_2 = registerBlock(
     "zoea_block_2",
-    () -> new XBlock(MapColor.COLOR_LIGHT_GREEN)
+    () -> new XBlock("zoea_block_2",MapColor.COLOR_LIGHT_GREEN)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_3 = registerBlock(
     "zoea_block_3",
-    () -> new XBlock(MapColor.COLOR_GREEN)
+    () -> new XBlock("zoea_block_3",MapColor.COLOR_GREEN)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_4 = registerBlock(
     "zoea_block_4",
-    () -> new XBlock(MapColor.COLOR_CYAN)
+    () -> new XBlock("zoea_block_4",MapColor.COLOR_CYAN)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_5 = registerBlock(
     "zoea_block_5",
-    () -> new XBlock(MapColor.COLOR_LIGHT_BLUE)
+    () -> new XBlock("zoea_block_5",MapColor.COLOR_LIGHT_BLUE)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_6 = registerBlock(
     "zoea_block_6",
-    () -> new XBlock(MapColor.COLOR_LIGHT_BLUE)
+    () -> new XBlock("zoea_block_6",MapColor.COLOR_LIGHT_BLUE)
   );
 
   public static final DeferredBlock<Block> ZOEA_BLOCK_7 = registerBlock(
     "zoea_block_7",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("zoea_block_7",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_8 = registerBlock(
     "zoea_block_8",
-    () -> new XBlock(MapColor.COLOR_PURPLE)
+    () -> new XBlock("zoea_block_8",MapColor.COLOR_PURPLE)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_9 = registerBlock(
     "zoea_block_9",
-    () -> new XBlock(MapColor.COLOR_MAGENTA)
+    () -> new XBlock("zoea_block_9",MapColor.COLOR_MAGENTA)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_10 = registerBlock(
     "zoea_block_10",
-    () -> new XBlock(MapColor.COLOR_MAGENTA)
+    () -> new XBlock("zoea_block_10",MapColor.COLOR_MAGENTA)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_11 = registerBlock(
     "zoea_block_11",
-    () -> new XBlock(MapColor.COLOR_PINK)
+    () -> new XBlock("zoea_block_11",MapColor.COLOR_PINK)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_12 = registerBlock(
     "zoea_block_12",
-    () -> new XBlock(MapColor.COLOR_RED)
+    () -> new XBlock("zoea_block_12",MapColor.COLOR_RED)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_13 = registerBlock(
     "zoea_block_13",
-    () -> new XBlock(MapColor.COLOR_ORANGE)
+    () -> new XBlock("zoea_block_13",MapColor.COLOR_ORANGE)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_14 = registerBlock(
     "zoea_block_14",
-    () -> new XBlock(MapColor.COLOR_BROWN)
+    () -> new XBlock("zoea_block_14",MapColor.COLOR_BROWN)
   );
   public static final DeferredBlock<Block> ZOEA_BLOCK_15 = registerBlock(
     "zoea_block_15",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zoea_block_15",MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

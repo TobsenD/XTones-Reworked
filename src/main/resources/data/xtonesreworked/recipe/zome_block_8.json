@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:zome"
-		},
-		"C": {
-			"tag": "c:dyes/blue"
-		}
-	},
-	"pattern": ["BBB", "BBB", "BCB"],
-	"result": {
-		"id": "xtonesreworked:zome_block_8",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:zome",
+        "C": "minecraft:blue_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BCB"
+    ],
+    "result": {
+        "id": "xtonesreworked:zome_block_8",
+        "count": 8
+    }
 }

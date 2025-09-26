@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"X": {
-			"tag": "xtonesreworked:agon"
-		},
-		"D": {
-			"tag": "c:dyes/brown"
-		}
-	},
-	"pattern": ["XXX", "XDX", "XXX"],
-	"result": {
-		"id": "xtonesreworked:agon_block_12",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": "#xtonesreworked:agon",
+        "D": "minecraft:brown_dye"
+    },
+    "pattern": [
+        "XXX",
+        "XDX",
+        "XXX"
+    ],
+    "result": {
+        "id": "xtonesreworked:agon_block_12",
+        "count": 8
+    }
 }

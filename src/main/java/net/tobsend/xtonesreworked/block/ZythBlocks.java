@@ -21,69 +21,69 @@ public class ZythBlocks {
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_0 = registerBlock(
     "zyth_block_0",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_0",MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_1 = registerBlock(
     "zyth_block_1",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_1",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_2 = registerBlock(
     "zyth_block_2",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_2",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_3 = registerBlock(
     "zyth_block_3",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_3",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_4 = registerBlock(
     "zyth_block_4",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_4",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_5 = registerBlock(
     "zyth_block_5",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_5",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_6 = registerBlock(
     "zyth_block_6",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_6",MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> ZYTH_BLOCK_7 = registerBlock(
     "zyth_block_7",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_7",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_8 = registerBlock(
     "zyth_block_8",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_8",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_9 = registerBlock(
     "zyth_block_9",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_9",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_10 = registerBlock(
     "zyth_block_10",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_10",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_11 = registerBlock(
     "zyth_block_11",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_11",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_12 = registerBlock(
     "zyth_block_12",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_12",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_13 = registerBlock(
     "zyth_block_13",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_13",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_14 = registerBlock(
     "zyth_block_14",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_14",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> ZYTH_BLOCK_15 = registerBlock(
     "zyth_block_15",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("zyth_block_15",MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

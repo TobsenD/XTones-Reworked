@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:cray"
-		},
-		"C": {
-			"tag": "c:dyes/green"
-		}
-	},
-	"pattern": ["BCB", "BBB", "BBB"],
-	"result": {
-		"id": "xtonesreworked:cray_block_3",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:cray",
+        "C": "minecraft:green_dye"
+    },
+    "pattern": [
+        "BCB",
+        "BBB",
+        "BBB"
+    ],
+    "result": {
+        "id": "xtonesreworked:cray_block_3",
+        "count": 8
+    }
 }

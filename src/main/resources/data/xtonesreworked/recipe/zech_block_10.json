@@ -1,16 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"key": {
-		"B": {
-			"tag": "xtonesreworked:zech"
-		},
-		"C": {
-			"tag": "c:dyes/magenta"
-		}
-	},
-	"pattern": ["BBB", "BBB", "BCB"],
-	"result": {
-		"id": "xtonesreworked:zech_block_10",
-		"count": 8
-	}
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "B": "#xtonesreworked:zech",
+        "C": "minecraft:magenta_dye"
+    },
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BCB"
+    ],
+    "result": {
+        "id": "xtonesreworked:zech_block_10",
+        "count": 8
+    }
 }

@@ -21,69 +21,69 @@ public class AzurBlocks {
 
   public static final DeferredBlock<Block> AZUR_BLOCK_0 = registerBlock(
     "azur_block_0",
-          () -> new XBlock(MapColor.COLOR_BLUE)
+          () -> new XBlock("azur_block_0",MapColor.COLOR_BLUE)
   );
 
   public static final DeferredBlock<Block> AZUR_BLOCK_1 = registerBlock(
     "azur_block_1",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_1",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_2 = registerBlock(
     "azur_block_2",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_2",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_3 = registerBlock(
     "azur_block_3",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_3",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_4 = registerBlock(
     "azur_block_4",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_4",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_5 = registerBlock(
     "azur_block_5",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_5",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_6 = registerBlock(
     "azur_block_6",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_6",MapColor.COLOR_BLUE)
   );
 
   public static final DeferredBlock<Block> AZUR_BLOCK_7 = registerBlock(
     "azur_block_7",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_7",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_8 = registerBlock(
     "azur_block_8",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block", MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_9 = registerBlock(
     "azur_block_9",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_9",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_10 = registerBlock(
     "azur_block_10",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_10",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_11 = registerBlock(
     "azur_block_11",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_11",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_12 = registerBlock(
     "azur_block_12",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_12",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_13 = registerBlock(
     "azur_block_13",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_13",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_14 = registerBlock(
     "azur_block_14",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_14",MapColor.COLOR_BLUE)
   );
   public static final DeferredBlock<Block> AZUR_BLOCK_15 = registerBlock(
     "azur_block_15",
-    () -> new XBlock(MapColor.COLOR_BLUE)
+    () -> new XBlock("azur_block_15",MapColor.COLOR_BLUE)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(

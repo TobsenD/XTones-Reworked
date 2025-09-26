@@ -1,11 +1,8 @@
 {
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-	  "tag": "xtonesreworked:reed"
-	},
-	"result": {
-		"count": 1,
-		"id": "xtonesreworked:reed_block_15"
-	}
-  }
+    "type": "minecraft:stonecutting",
+    "ingredient": "#xtonesreworked:reed",
+    "result": {
+        "count": 1,
+        "id": "xtonesreworked:reed_block_15"
+    }
+}

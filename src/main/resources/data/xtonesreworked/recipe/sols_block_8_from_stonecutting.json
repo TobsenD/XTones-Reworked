@@ -1,11 +1,8 @@
 {
-	"type": "minecraft:stonecutting",
-	"count": 1,
-	"ingredient": {
-	  "tag": "xtonesreworked:sols"
-	},
-	"result": {
-		"count": 1,
-		"id": "xtonesreworked:sols_block_8"
-	}
-  }
+    "type": "minecraft:stonecutting",
+    "ingredient": "#xtonesreworked:sols",
+    "result": {
+        "count": 1,
+        "id": "xtonesreworked:sols_block_8"
+    }
+}

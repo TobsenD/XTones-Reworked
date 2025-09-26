@@ -21,69 +21,69 @@ public class VectBlocks {
 
   public static final DeferredBlock<Block> VECT_BLOCK_0 = registerBlock(
     "vect_block_0",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_0",MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> VECT_BLOCK_1 = registerBlock(
     "vect_block_1",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_1",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_2 = registerBlock(
     "vect_block_2",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_2",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_3 = registerBlock(
     "vect_block_3",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_3",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_4 = registerBlock(
     "vect_block_4",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_4",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_5 = registerBlock(
     "vect_block_5",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_5",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_6 = registerBlock(
     "vect_block_6",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_6",MapColor.COLOR_BLACK)
   );
 
   public static final DeferredBlock<Block> VECT_BLOCK_7 = registerBlock(
     "vect_block_7",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_7",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_8 = registerBlock(
     "vect_block_8",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_8",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_9 = registerBlock(
     "vect_block_9",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_9",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_10 = registerBlock(
     "vect_block_10",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_10",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_11 = registerBlock(
     "vect_block_11",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_11",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_12 = registerBlock(
     "vect_block_12",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_12",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_13 = registerBlock(
     "vect_block_13",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_13",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_14 = registerBlock(
     "vect_block_14",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_14",MapColor.COLOR_BLACK)
   );
   public static final DeferredBlock<Block> VECT_BLOCK_15 = registerBlock(
     "vect_block_15",
-    () -> new XBlock(MapColor.COLOR_BLACK)
+    () -> new XBlock("vect_block_15",MapColor.COLOR_BLACK)
   );
 
   private static final <R, T> DeferredBlock<Block> registerBlock(
