@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:myst",
-        "C": "minecraft:lime_dye"
+        "C": "#c:dyes/lime"
     },
     "pattern": [
         "BBB",

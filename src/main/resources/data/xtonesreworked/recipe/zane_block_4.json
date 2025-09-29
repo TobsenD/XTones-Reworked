@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zane",
-        "C": "minecraft:green_dye"
+        "C": "#c:dyes/green"
     },
     "pattern": [
         "BBB",

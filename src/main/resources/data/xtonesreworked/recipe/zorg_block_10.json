@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zorg",
-        "C": "minecraft:magenta_dye"
+        "C": "#c:dyes/magenta"
     },
     "pattern": [
         "BBB",

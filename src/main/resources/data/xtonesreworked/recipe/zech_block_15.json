@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zech",
-        "C": "minecraft:black_dye"
+        "C": "#c:dyes/black"
     },
     "pattern": [
         "BBB",

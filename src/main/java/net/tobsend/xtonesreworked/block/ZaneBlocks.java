@@ -65,6 +65,10 @@ public class ZaneBlocks {
     "zane_block_10",
     () -> new XBlock("zane_block_10",MapColor.COLOR_PURPLE)
   );
+    public static final DeferredBlock<Block> ZANE_BLOCK_11 = registerBlock(
+            "zane_block_11",
+            () -> new XBlock("zane_block_11",MapColor.COLOR_PURPLE)
+    );
   public static final DeferredBlock<Block> ZANE_BLOCK_12 = registerBlock(
     "zane_block_12",
     () -> new XBlock("zane_block_12",MapColor.COLOR_RED)

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zeta",
-        "C": "minecraft:light_blue_dye"
+        "C": "#c:dyes/light_blue"
     },
     "pattern": [
         "BBB",

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zone",
-        "C": "minecraft:brown_dye"
+        "C": "#c:dyes/brown"
     },
     "pattern": [
         "BBB",

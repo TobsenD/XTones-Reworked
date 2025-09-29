@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "X": "#xtonesreworked:agon",
-        "D": "minecraft:red_dye"
+        "D": "#c:dyes/red"
     },
     "pattern": [
         "XXX",

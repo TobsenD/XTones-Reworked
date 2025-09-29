@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "X": "#xtonesreworked:bitt",
-        "D": "minecraft:orange_dye"
+        "D": "#c:dyes/orange"
     },
     "pattern": [
         "XXX",

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "xtonesreworked:xtone_tile",
-        "S": "minecraft:orange_dye"
+        "S": "#c:dyes/orange"
     },
     "pattern": [
         "BBB",

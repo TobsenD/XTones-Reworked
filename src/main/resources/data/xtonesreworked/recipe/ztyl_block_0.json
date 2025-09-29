@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "xtonesreworked:xtone_tile",
-        "C": "minecraft:light_gray_dye"
+        "C": "#c:dyes/light_gray"
     },
     "pattern": [
         "BBB",

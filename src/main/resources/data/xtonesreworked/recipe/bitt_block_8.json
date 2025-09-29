@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "X": "#xtonesreworked:bitt",
-        "D": "minecraft:blue_dye"
+        "D": "#c:dyes/blue"
     },
     "pattern": [
         "XXX",

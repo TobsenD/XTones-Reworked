@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "B": "#xtonesreworked:zoea",
-        "C": "minecraft:orange_dye"
+        "C": "#c:dyes/orange"
     },
     "pattern": [
         "BBB",
