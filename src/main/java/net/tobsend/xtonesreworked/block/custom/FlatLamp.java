@@ -76,7 +76,7 @@ public class FlatLamp extends Block {
 
     @Override
     protected void neighborChanged(BlockState state, Level level, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean movedByPiston) {
-        if (!level.isClientSide) {
+        if (!level.isClientSide()) {
             boolean lit = state.getValue(LIT);
             boolean powered = level.hasNeighborSignal(pos);
             if (lit != powered) {
